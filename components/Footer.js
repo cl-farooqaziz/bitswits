@@ -4,6 +4,14 @@ import Image from 'next/image'
 import styles from '@/styles/Footer.module.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container, Row, Col } from 'react-bootstrap';
+//images
+import call from '../public/images/icons/phone-icon.webp'
+import mail from '../public/images/icons/email-icon.webp'
+import fb from '../public/images/icons//fb-icon.webp'
+import inta from '../public/images/icons/insta-icon.webp'
+import tweet from '../public/images/icons/twitter-icon.webp'
+import linkedin from '../public/images/icons/linkedin-icon.webp'
+import youtube from '../public/images/icons/youtube-icon.webp'
 
 const Footer = () => {
     return (
@@ -118,7 +126,7 @@ const Footer = () => {
                                 <div className={`${styles.footTitle} mb-3 pb-3 linkspost`}>
                                     <h3 className="f-montserrat f-w f-22">Useful Links</h3>
                                 </div>
-                                <ul className='p-0'>
+                                <ul className='p-0 mb-1'>
                                     <li>
                                         <Link href="#">Contact Us</Link>
                                     </li>
@@ -138,22 +146,34 @@ const Footer = () => {
                                         <Link href="#">Terms & Conditions</Link>
                                     </li>
                                 </ul>
-                                <ul className={`${styles.contacts} ${styles.myLinks}`}>
-                                    <li className="mb-3">
+                                <ul className={`${styles.contacts} ${styles.myLinks} p-0`}>
+                                    <li className="mb-2">
                                         <Link href="mailto:info@bitswits.co">
-                                            <img width="18" height="12" alt="bitswits" className="img-fluid" src="https://bitswits.co/src/media/footer/email-icon.webp" loading="lazy" />
+                                            <Image className='img-fluid'
+                                                src={mail}
+                                                alt='bitswits'
+                                                loading="lazy"
+                                            />
                                             <span className="email f-upperCase">Contact Email</span>
                                         </Link>
                                     </li>
                                     <li className="fw-bold">
                                         <Link href="tel:13123795987">
-                                            <img width="15" height="15" alt="bitswits" className="img-fluid" src="https://bitswits.co/src/media/footer/phone-icon.webp" loading="lazy" />
+                                            <Image className='img-fluid'
+                                                src={call}
+                                                alt='bitswits'
+                                                loading="lazy"
+                                            />
                                             <span className="number">+1 312 379 5987</span>
                                         </Link>
                                     </li>
                                     <li className="fw-bold">
                                         <Link href="tel:18335006007">
-                                            <img width="15" height="15" alt="bitswits" className="img-fluid" src="https://bitswits.co/src/media/footer/phone-icon.webp" loading="lazy" />
+                                            <Image className='img-fluid'
+                                                src={call}
+                                                alt='bitswits'
+                                                loading="lazy"
+                                            />
                                             <span className="number">+1 833 500 6007</span>
                                         </Link>
                                     </li>
@@ -162,59 +182,82 @@ const Footer = () => {
                         </Row>
                     </div>
                 </Container>
-                <div className="footer--copyright new-styled">
-                    <div className="container">
-                        <div className="row align-items-md-center">
-                            <div className="col-md-4 col-lg-3 mt-md-0 mt-4">
-                                <ul className="socials">
+                <div className={styles.footNotes}>
+                    <Container>
+                        <Row className="align-items-md-center">
+                            <Col md={4} lg={3} className="mt-md-0 mt-4">
+                                <ul className={styles.socials}>
                                     <li>
                                         <Link href="https://www.facebook.com/officialbitswits" target="_blank" rel="noopener noreferrer">
-                                            <img width="30" height="30" alt="bitswits" className="img-fluid" src="https://bitswits.co/src/media/footer/fb-icon.webp" loading="lazy" />
+                                            <Image className='img-fluid'
+                                                src={fb}
+                                                alt='bitswits'
+                                                loading="lazy"
+                                            />
                                         </Link>
                                     </li>
                                     <li>
                                         <Link href="https://www.instagram.com/officialbitswits/" target="_blank" rel="noopener noreferrer">
-                                            <img width="30" height="30" alt="bitswits" className="img-fluid" src="https://bitswits.co/src/media/footer/insta-icon.webp" loading="lazy" />
+                                            <Image className='img-fluid'
+                                                src={inta}
+                                                alt='bitswits'
+                                                loading="lazy"
+                                            />
                                         </Link>
                                     </li>
                                     <li>
                                         <Link href="https://twitter.com/BitsWits_/" target="_blank" rel="noopener noreferrer">
-                                            <img width="30" height="30" alt="bitswits" className="img-fluid" src="https://bitswits.co/src/media/footer/twitter-icon.webp" loading="lazy" />
+                                            <Image className='img-fluid'
+                                                src={tweet}
+                                                alt='bitswits'
+                                                loading="lazy"
+                                            />
                                         </Link>
                                     </li>
                                     <li>
                                         <Link href="https://www.linkedin.com/company/officialbitswits" target="_blank" rel="noopener noreferrer">
-                                            <img width="30" height="30" alt="bitswits" className="img-fluid" src="https://bitswits.co/src/media/footer/linkedin-icon.webp" loading="lazy" />
+                                            <Image className='img-fluid'
+                                                src={linkedin}
+                                                alt='bitswits'
+                                                loading="lazy"
+                                            />
                                         </Link>
                                     </li>
                                     <li>
                                         <Link href="https://www.youtube.com/@officialbitswits" target="_blank" rel="noopener noreferrer">
-                                            <img width="30" height="30" alt="bitswits" className="img-fluid" src="https://bitswits.co/src/media/footer/youtube-icon.webp" loading="lazy" />
+                                            <Image className='img-fluid'
+                                                src={youtube}
+                                                alt='bitswits'
+                                                loading="lazy"
+                                            />
                                         </Link>
                                     </li>
                                 </ul>
-                            </div>
-                            <div className="col-md-4 col-lg-6">
-                                <p className="f-montserrat f-15 f-w f-500 home-color-3">
+                            </Col>
+                            <Col md={4} lg={6}>
+                                <p className={`${styles.trmCon} f-montserrat f-12 white f-500`}>
                                     Copyright © 2023 BitsWits. |
-                                    <Link href="https://bhaooinc.com/" className="f-w" target="_blank">
+                                    <Link href="#" className="white ps-1" target="_blank">
                                         Brand Of Bhaoo Incorporation Company
                                     </Link>
                                 </p>
-                            </div>
-                            <div className="col-md-4 col-lg-3">
-                                <div className="termsMain">
-                                    <ul className="termsCondition">
-                                        <li><Link href="https://bitswits.co/terms-and-conditions/" className="f-w">Terms of Use</Link>
+                            </Col>
+                            <Col md={4} lg={3}>
+                                <div className={styles.termsMain}>
+                                    <ul className={styles.termsCo}>
+                                        <li>
+                                            <Link href="#">Terms of Use</Link>
                                         </li>
-                                        <li><p className="f-w px-2"> | </p></li>
-                                        <li><Link href="https://bitswits.co/privacy-policy/" className="f-w">Privacy Policy</Link>
+                                        <li>
+                                            <p className="f-montserrat f-12 white f-500 mb-0 white"> | </p></li>
+                                        <li>
+                                            <Link href="#">Privacy Policy</Link>
                                         </li>
                                     </ul>
                                 </div>
-                            </div>
-                        </div>
-                    </div>
+                            </Col>
+                        </Row>
+                    </Container>
                 </div>
             </footer>
         </>
