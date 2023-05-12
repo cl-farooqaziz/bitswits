@@ -1,0 +1,27 @@
+.Integration {
+    background-image: url(../public/images/integration/integration-bg.webp);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 100px 0;
+}
+.arrowBtn1 {
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 1.2;
+    font-family: Montserrat;
+    text-transform: uppercase;
+    color: var(--p-color);
+    display: flex;
+    margin-bottom: 2px;
+    margin-top: 5%;
+    align-items: flex-end;
+}
+.arrowBtn:hover{
+    color: var(--p-color);
+}
+.arrowBtn img{
+    margin-left: 1%;
+}
