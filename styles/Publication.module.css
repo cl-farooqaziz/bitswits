@@ -1,0 +1,21 @@
+.publicationimg{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 115px;
+    display: flex;
+    border: 1px solid #707070;
+    padding: 20px;
+}
+
+.publicationimg img{
+    filter: grayscale(1);
+    opacity: .5;
+}
+.publicationimg img:hover{
+    filter: unset;
+    opacity: unset;
+}
+.publi{
+    padding: 100px 0;
+}

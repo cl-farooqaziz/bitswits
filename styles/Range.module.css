@@ -1,0 +1,33 @@
+.publicationimg{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 140px;
+    display: flex;
+    border: 1px solid #707070;
+    padding: 20px;
+    background-color: #707070;
+    flex-direction: column;
+    
+}
+
+.publicationimg img{
+    filter: brightness(0) invert(1);
+    opacity: 1;
+}
+.publicationimg img:hover{
+    filter: unset;
+    opacity: unset;
+}
+.range{
+    padding: 100px 0;
+    background-image: url(../public/images/range/bg.webp);
+    background-size: cover;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat
+}
+.sector{
+    display: flex;
+    align-items: center;
+}

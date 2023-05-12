@@ -12,16 +12,18 @@ import servicesmobile4 from '/public/images/servicesmobile/4.webp'
 import servicesmobile5 from '/public/images/servicesmobile/5.webp'
 import servicesmobile6 from '/public/images/servicesmobile/6.webp'
 import { Container, Row } from 'react-bootstrap'
+import Publication from '@/components/Publication'
+import Range from '@/components/Range'
 
 export default function Home() {
 
 
-const android = <span>Android <br></br>Application Development </span>
-const web = <span>Web <br></br>App Development </span>
-const Flutter = <span>Flutter <br></br>App Development </span>
-const React = <span>React Native <br></br>App Development </span>
-const Cross = <span>Cross Platform  <br></br>App Development </span>
-const IOS = <span>IOS  <br></br>Application Development </span>
+  const android = <span>Android <br></br>Application Development </span>
+  const web = <span>Web <br></br>App Development </span>
+  const Flutter = <span>Flutter <br></br>App Development </span>
+  const React = <span>React Native <br></br>App Development </span>
+  const Cross = <span>Cross Platform  <br></br>App Development </span>
+  const IOS = <span>IOS  <br></br>Application Development </span>
 
 
   const fine = [
@@ -130,9 +132,11 @@ const IOS = <span>IOS  <br></br>Application Development </span>
         </Container>
       </div>
 
+      <Publication />
+
+      <Range />
 
 
-      
 
       <Whatourclients />
 
