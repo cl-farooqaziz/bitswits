@@ -95,17 +95,17 @@ const Range = () => {
             <h2 className='f-50 t-center white f-playfair'>Mobile Application Development Company
               <br></br>  For Everyone Out There
             </h2>
-            <p class=" f-montserrat f-15 f-500 white t-center mt-3">
+            <p className=" f-montserrat f-15 f-500 white t-center mt-3">
                     BitsWits provides mobile app development service in the USA for every industry with innovation and efficiency. We create customized mobile solutions for various industries, from e-commerce to the healthcare or gaming industry. Our skilled app developers are determined to come up with mobile apps that meet the unique needs of every client and their business.
                 </p>
           </Col>
         </Row>
         <Row className="gy-2 mt-3">
           {bloglisting.map((item, i) =>
-            <Col md={2} className='imgspacetop'>
+            <Col md={2} key={i} className='imgspacetop'>
               <div className={styles.publicationimg}>
                 <Image loading="lazy" src={item.image} alt="bitswits" className='img-fluid' />
-                <h4 class="f-montserrat f-14 f-500 white mt-2">{item.title}</h4>
+                <h4 className="f-montserrat f-14 f-500 white mt-2">{item.title}</h4>
               </div>
             </Col>
           )}

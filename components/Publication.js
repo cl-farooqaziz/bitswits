@@ -86,7 +86,7 @@ const Publication = () => {
         </Row>
         <Row className="gy-3 mt-4">
           {bloglisting.map((item, i) =>
-            <Col md={2} className='imgspacetop'>
+            <Col md={2} key={i} className='imgspacetop'>
               <div className={styles.publicationimg}>
                 <Image loading="lazy" src={item.image} alt="bitswits" className='img-fluid' />
               </div>
