@@ -20,50 +20,50 @@ const Footer = () => {
                                     <Col md={6}>
                                         <ul className='p-0'>
                                             <li>
-                                                <Link href="javascript:;">iPhone App Development</Link>
+                                                <Link href="#">iPhone App Development</Link>
                                             </li>
                                             <li>
-                                                <Link href="javascript:;">Cross Platform App Development</Link>
+                                                <Link href="#">Cross Platform App Development</Link>
                                             </li>
                                             <li>
-                                                <Link href="javascript:;">Android App Development</Link>
+                                                <Link href="#">Android App Development</Link>
                                             </li>
                                             <li>
-                                                <Link href="javascript:;">React Native App Development</Link>
+                                                <Link href="#">React Native App Development</Link>
                                             </li>
                                             <li>
-                                                <Link href="javascript:;">Flutter App Development</Link>
+                                                <Link href="#">Flutter App Development</Link>
                                             </li>
                                             <li>
-                                                <Link href="javascript:;">Wearable App Development</Link>
+                                                <Link href="#">Wearable App Development</Link>
                                             </li>
                                         </ul>
                                     </Col>
                                     <Col md={6}>
                                         <ul className='p-0'>
                                             <li>
-                                                <Link href="javascript:;">UI / UX App Design</Link>
+                                                <Link href="#">UI / UX App Design</Link>
                                             </li>
                                             <li>
-                                                <Link href="javascript:;">Mobile App Development USA</Link>
+                                                <Link href="#">Mobile App Development USA</Link>
                                             </li>
                                             <li>
-                                                <Link href="javascript:;">Mobile App Development</Link>
+                                                <Link href="#">Mobile App Development</Link>
                                             </li>
                                             <li>
-                                                <Link href="javascript:;">Web App Development</Link>
+                                                <Link href="#">Web App Development</Link>
                                             </li>
                                             <li>
-                                                <Link href="javascript:;">Game Development</Link>
+                                                <Link href="#">Game Development</Link>
                                             </li>
                                             <li>
-                                                <Link href="javascript:;">2D Game Development</Link>
+                                                <Link href="#">2D Game Development</Link>
                                             </li>
                                             <li>
-                                                <Link href="javascript:;">3D Game Development</Link>
+                                                <Link href="#">3D Game Development</Link>
                                             </li>
                                             <li>
-                                                <Link href="javascript:;">Blockchain Game Development</Link>
+                                                <Link href="#">Blockchain Game Development</Link>
                                             </li>
                                         </ul>
                                     </Col>
@@ -77,38 +77,38 @@ const Footer = () => {
                                     <Col md={6}>
                                         <ul className='p-0'>
                                             <li>
-                                                <Link href="javascript:;" className="modal-toggle">On Demand App Development</Link>
+                                                <Link href="#" className="modal-toggle">On Demand App Development</Link>
                                             </li>
                                             <li>
-                                                <Link href="javascript:;" className="modal-toggle">Taxi App Solution</Link>
+                                                <Link href="#" className="modal-toggle">Taxi App Solution</Link>
                                             </li>
                                             <li>
-                                                <Link href="javascript:;" className="modal-toggle">Food Delivering App Solutions</Link>
+                                                <Link href="#" className="modal-toggle">Food Delivering App Solutions</Link>
                                             </li>
                                             <li>
-                                                <Link href="javascript:;" className="modal-toggle">Elearning App Solutions</Link>
+                                                <Link href="#" className="modal-toggle">Elearning App Solutions</Link>
                                             </li>
                                             <li>
-                                                <Link href="javascript:;" className="modal-toggle">Lifestyle App Development</Link>
+                                                <Link href="#" className="modal-toggle">Lifestyle App Development</Link>
                                             </li>
                                             <li>
-                                                <Link href="javascript:;" className="modal-toggle">Healthcare App Development</Link>
+                                                <Link href="#" className="modal-toggle">Healthcare App Development</Link>
                                             </li>
                                         </ul>
                                     </Col>
                                     <Col md={6}>
                                         <ul className='p-0'>
                                             <li>
-                                                <Link href="javascript:;" className="modal-toggle">On Demand eWallet App Solutions</Link>
+                                                <Link href="#" className="modal-toggle">On Demand eWallet App Solutions</Link>
                                             </li>
                                             <li>
-                                                <Link href="javascript:;" className="modal-toggle">Fantasy Sports App Development</Link>
+                                                <Link href="#" className="modal-toggle">Fantasy Sports App Development</Link>
                                             </li>
                                             <li>
-                                                <Link href="javascript:;" className="modal-toggle">Grocery Delivery App Development</Link>
+                                                <Link href="#" className="modal-toggle">Grocery Delivery App Development</Link>
                                             </li>
                                             <li>
-                                                <Link href="javascript:;" className="modal-toggle">Live Streaming App Development</Link>
+                                                <Link href="#" className="modal-toggle">Live Streaming App Development</Link>
                                             </li>
                                         </ul>
                                     </Col>
@@ -120,22 +120,22 @@ const Footer = () => {
                                 </div>
                                 <ul className='p-0'>
                                     <li>
-                                        <Link href="javascript:;">Contact Us</Link>
+                                        <Link href="#">Contact Us</Link>
                                     </li>
                                     <li>
-                                        <Link href="javascript:;">About Us</Link>
+                                        <Link href="#">About Us</Link>
                                     </li>
                                     <li>
-                                        <Link href="javascript:;">Works</Link>
+                                        <Link href="#">Works</Link>
                                     </li>
                                     <li>
-                                        <Link href="javascript:;">Testimonials</Link>
+                                        <Link href="#">Testimonials</Link>
                                     </li>
                                     <li>
-                                        <Link href="javascript:;">Privacy Policy</Link>
+                                        <Link href="#">Privacy Policy</Link>
                                     </li>
                                     <li>
-                                        <Link href="javascript:;">Terms & Conditions</Link>
+                                        <Link href="#">Terms & Conditions</Link>
                                     </li>
                                 </ul>
                                 <ul className={`${styles.contacts} ${styles.myLinks}`}>

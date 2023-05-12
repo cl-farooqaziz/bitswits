@@ -44,7 +44,7 @@ const Header = () => {
                                     </Link>
                                 </li>
                                 <li className={`${styles.mainLi} ${styles.megaLi}`}>
-                                    <Link href="javascript:;" className={styles.mainA}>
+                                    <Link href="#" className={styles.mainA}>
                                         <span>Services</span>
                                         <Image className='img-fluid'
                                             src={arrow}
@@ -68,8 +68,8 @@ const Header = () => {
                                                             <div className={styles.servicesHeading}>
                                                                 <div className={styles.contains}>
                                                                     <h5 className={styles.mobApp}>
-                                                                        <Link href="javascript:;">
-                                                                            <span className="javascript:;"> Mobile App Development
+                                                                        <Link href="#">
+                                                                            <span className="#"> Mobile App Development
                                                                             </span>
                                                                         </Link>
                                                                     </h5>
@@ -80,25 +80,25 @@ const Header = () => {
                                                                     <Col xl={6}>
                                                                         <ul className={`${styles.megaUl} p-0`}>
                                                                             <li className={styles.megaList}>
-                                                                                <Link href="javascript:;"
+                                                                                <Link href="#"
                                                                                     className={styles.megaA}>
                                                                                     <span>Mobile App Development</span>
                                                                                 </Link>
                                                                             </li>
                                                                             <li className={styles.megaList}>
-                                                                                <Link href="javascript:;"
+                                                                                <Link href="#"
                                                                                     className={styles.megaA}>
                                                                                     <span>iOS App Development</span>
                                                                                 </Link>
                                                                             </li>
                                                                             <li className={styles.megaList}>
-                                                                                <Link href="javascript:;"
+                                                                                <Link href="#"
                                                                                     className={styles.megaA}>
                                                                                     <span>Android App Development </span>
                                                                                 </Link>
                                                                             </li>
                                                                             <li className={styles.megaList}>
-                                                                                <Link href="javascript:;"
+                                                                                <Link href="#"
                                                                                     className={styles.megaA}>
                                                                                     <span>Flutter App Development</span>
                                                                                 </Link>
@@ -108,25 +108,25 @@ const Header = () => {
                                                                     <Col xl={6} className='ps-0'>
                                                                         <ul className={`${styles.megaUl} p-0`}>
                                                                             <li className={styles.megaList}>
-                                                                                <Link href="javascript:;"
+                                                                                <Link href="#"
                                                                                     className={styles.megaA}>
                                                                                     <span>React Native App Development</span>
                                                                                 </Link>
                                                                             </li>
                                                                             <li className={styles.megaList}>
-                                                                                <Link href="javascript:;"
+                                                                                <Link href="#"
                                                                                     className={styles.megaA}>
                                                                                     <span>Wearable App Development</span>
                                                                                 </Link>
                                                                             </li>
                                                                             <li className={styles.megaList}>
-                                                                                <Link href="javascript:;"
+                                                                                <Link href="#"
                                                                                     className={styles.megaA}>
                                                                                     <span>Cross Platform App Development</span>
                                                                                 </Link>
                                                                             </li>
                                                                             <li className={styles.megaList}>
-                                                                                <Link href="javascript:;"
+                                                                                <Link href="#"
                                                                                     className={styles.megaA}>
                                                                                     <span> Web App Development </span>
                                                                                 </Link>
@@ -146,7 +146,7 @@ const Header = () => {
                                                                     <div className={styles.servicesHeading}>
                                                                         <div className={styles.contains}>
                                                                             <h5 className={styles.gameApp}>
-                                                                                <Link href="javascript:;">
+                                                                                <Link href="#">
                                                                                     <span>Game App Development</span>
                                                                                 </Link>
                                                                             </h5>
@@ -154,25 +154,25 @@ const Header = () => {
                                                                     </div>
                                                                     <ul className={`${styles.megaUl} p-0`}>
                                                                         <li className={styles.megaList}>
-                                                                            <Link href="javascript:;"
+                                                                            <Link href="#"
                                                                                 className={styles.megaA}>
                                                                                 <span>2D Game Development</span>
                                                                             </Link>
                                                                         </li>
                                                                         <li className={styles.megaList}>
-                                                                            <Link href="javascript:;"
+                                                                            <Link href="#"
                                                                                 className={styles.megaA}>
                                                                                 <span>3D Game Development</span>
                                                                             </Link>
                                                                         </li>
                                                                         <li className={styles.megaList}>
-                                                                            <Link href="javascript:;"
+                                                                            <Link href="#"
                                                                                 className={styles.megaA}>
                                                                                 <span>NFT Game Development </span>
                                                                             </Link>
                                                                         </li>
                                                                         <li className={styles.megaList}>
-                                                                            <Link href="javascript:;"
+                                                                            <Link href="#"
                                                                                 className={styles.megaA}>
                                                                                 <span>Blockchain Game Development</span>
                                                                             </Link>
@@ -185,7 +185,7 @@ const Header = () => {
                                                                     <div className={styles.servicesHeading}>
                                                                         <div className={styles.contains}>
                                                                             <h5 className={styles.gameApp}>
-                                                                                <Link href="javascript:;">
+                                                                                <Link href="#">
                                                                                     <span>UI/UX App Design</span>
                                                                                 </Link>
                                                                             </h5>
@@ -193,7 +193,7 @@ const Header = () => {
                                                                     </div>
                                                                     <ul className={`${styles.megaUl} p-0`}>
                                                                         <li className={styles.megaList}>
-                                                                            <Link href="javascript:;"
+                                                                            <Link href="#"
                                                                                 className={styles.megaA}>
                                                                                 <span>UI/UX App Design</span>
                                                                             </Link>
@@ -221,7 +221,7 @@ const Header = () => {
                                                                 </div>
                                                                 <div className={styles.contains}>
                                                                     <h5 className={styles.mobApp}>
-                                                                        <Link href="javascript:;">
+                                                                        <Link href="#">
                                                                             <span className="dataActive active" datas="mobile"> Mobile App Development</span>
                                                                         </Link>
                                                                     </h5>
@@ -238,7 +238,7 @@ const Header = () => {
                                                                 </div>
                                                                 <div className={styles.contains}>
                                                                     <h5 className={styles.gameApp}>
-                                                                        <Link href="javascript:;">
+                                                                        <Link href="#">
                                                                             <span>Game App Development</span>
                                                                         </Link>
                                                                     </h5>
@@ -256,7 +256,7 @@ const Header = () => {
                                                                 <div className={`${styles.contains} 
                                                                 ${styles.last}`}>
                                                                     <h5 className={styles.gameApp}>
-                                                                        <Link href="javascript:;">
+                                                                        <Link href="#">
                                                                             <span>UI/UX App Design</span>
                                                                         </Link>
                                                                     </h5>
@@ -270,7 +270,7 @@ const Header = () => {
                                     </div>
                                 </li>
                                 <li className={`${styles.mainLi} ${styles.megaLi}`}>
-                                    <Link href="javascript:;" className={styles.mainA}>
+                                    <Link href="#" className={styles.mainA}>
                                         <span>Our Work</span>
                                         <Image className='img-fluid'
                                             src={arrow}
@@ -285,40 +285,40 @@ const Header = () => {
                                                     <div className={styles.innerCol}>
                                                         <ul className={`${styles.megaUl} p-0`}>
                                                             <li className={styles.megaList}>
-                                                                <Link href="javascript:;" className={`${styles.megaA} ${styles.travelLink}`}>
-                                                                    <div className={styles.workTitle}>
-                                                                        <Link className={styles.workTitle} href="javascript:;">
+                                                               
+                                                                    <span className={styles.workTitle}>
+                                                                        <Link className={styles.workTitle} href="#">
                                                                             Travel App
-                                                                        </Link>
-                                                                    </div>
-                                                                    <div className={styles.realDummy}>Create Hassle-Free Travel...</div>
-                                                                    <div className={`${styles.travelApp} ${styles.scrn}`}>View App Screen</div>
-                                                                </Link>
+                                                                            </Link>
+                                                                    </span>
+                                                                    <span className={styles.realDummy}>Create Hassle-Free Travel...</span>
+                                                                    <span className={`${styles.travelApp} ${styles.scrn}`}>View App Screen</span>
+                                                               
                                                             </li>
                                                             <li className={styles.megaList}>
-                                                                <Link href="javascript:;" className={`${styles.megaA} ${styles.travelLink}`}>
-                                                                    <div className={styles.workTitle}>
-                                                                        <Link className={styles.workTitle} href="javascript:;">
+                                                               
+                                                                    <span className={styles.workTitle}>
+                                                                        <Link className={styles.workTitle} href="#">
                                                                             Real Estate App
                                                                         </Link>
-                                                                    </div>
-                                                                    <div className={styles.realDummy}>A Real Estate App Instilling...</div>
-                                                                    <div className={`${styles.estatApp} ${styles.scrn}`}>View App Screen</div>
-                                                                </Link>
+                                                                    </span>
+                                                                    <span className={styles.realDummy}>A Real Estate App Instilling...</span>
+                                                                    <span className={`${styles.estatApp} ${styles.scrn}`}>View App Screen</span>
+                                                          
                                                             </li>
                                                             <li className={styles.megaList}>
-                                                                <Link href="javascript:;" className={`${styles.megaA} ${styles.travelLink}`}>
-                                                                    <div className={styles.workTitle}>
-                                                                        <Link className={styles.workTitle} href="javascript:;">
+                                                               
+                                                                    <span className={styles.workTitle}>
+                                                                        <Link className={styles.workTitle} href="#">
                                                                             Bacteria App
                                                                         </Link>
-                                                                    </div>
-                                                                    <div className={styles.realDummy}>Bacteria Shield - Cleaning... </div>
-                                                                    <div className={`${styles.bactriApp} ${styles.scrn}`}>View App Screen</div>
-                                                                </Link>
+                                                                    </span>
+                                                                    <span className={styles.realDummy}>Bacteria Shield - Cleaning... </span>
+                                                                    <span className={`${styles.bactriApp} ${styles.scrn}`}>View App Screen</span>
+                                                             
                                                             </li>
                                                             <div className={styles.view}>
-                                                                <Link href="javascript:;" className={styles.btnView}>View all Works</Link>
+                                                                <Link href="#" className={styles.btnView}>View all Works</Link>
                                                             </div>
                                                         </ul>
                                                     </div>
@@ -327,37 +327,37 @@ const Header = () => {
                                                     <div className={styles.innerCol}>
                                                         <ul className={`${styles.megaUl} p-0`}>
                                                             <li className={styles.megaList}>
-                                                                <Link href="javascript:;" className={`${styles.megaA} ${styles.travelLink}`}>
-                                                                    <div className={styles.workTitle}>
-                                                                        <Link className={styles.workTitle} href="javascript:;">
+                                                               
+                                                                    <span className={styles.workTitle}>
+                                                                        <Link className={styles.workTitle} href="#">
                                                                             Sound App
                                                                         </Link>
-                                                                    </div>
-                                                                    <div className={styles.realDummy}>Developed A Music Streaming... </div>
-                                                                    <div className={`${styles.soundApp} ${styles.scrn}`}>View App Screen</div>
-                                                                </Link>
+                                                                    </span>
+                                                                    <span className={styles.realDummy}>Developed A Music Streaming... </span>
+                                                                    <span className={`${styles.soundApp} ${styles.scrn}`}>View App Screen</span>
+                                                            
                                                             </li>
                                                             <li className={styles.megaList}>
-                                                                <Link href="javascript:;" className={`${styles.megaA} ${styles.travelLink}`}>
-                                                                    <div className={styles.workTitle}>
-                                                                        <Link className={styles.workTitle} href="javascript:;">
+                                                               
+                                                                    <span className={styles.workTitle}>
+                                                                        <Link className={styles.workTitle} href="#">
                                                                             PROHealth App
                                                                         </Link>
-                                                                    </div>
-                                                                    <div className={styles.realDummy}>AS Medicare - A Pharmacy... </div>
-                                                                    <div className={`${styles.pharmaApp} ${styles.scrn}`}>View App Screen</div>
-                                                                </Link>
+                                                                    </span>
+                                                                    <span className={styles.realDummy}>AS Medicare - A Pharmacy... </span>
+                                                                    <span className={`${styles.pharmaApp} ${styles.scrn}`}>View App Screen</span>
+                                                           
                                                             </li>
                                                             <li className={styles.megaList}>
-                                                                <Link href="javascript:;" className={`${styles.megaA} ${styles.travelLink}`}>
-                                                                    <div className={styles.workTitle}>
-                                                                        <Link className={styles.workTitle} href="javascript:;">
+                                                               
+                                                                    <span className={styles.workTitle}>
+                                                                        <Link className={styles.workTitle} href="#">
                                                                             Rider App
                                                                         </Link>
-                                                                    </div>
-                                                                    <div className={styles.realDummy}>EZ Ride is a two-sided market... </div>
-                                                                    <div className={`${styles.riderApp} ${styles.scrn}`}>View App Screen</div>
-                                                                </Link>
+                                                                    </span>
+                                                                    <span className={styles.realDummy}>EZ Ride is a two-sided market... </span>
+                                                                    <span className={`${styles.riderApp} ${styles.scrn}`}>View App Screen</span>
+                                                              
                                                             </li>
                                                         </ul>
                                                     </div>
@@ -366,16 +366,16 @@ const Header = () => {
                                                     <div className={styles.innerCol}>
                                                         <ul className={`${styles.megaUl} p-0`}>
                                                             <li className={styles.megaList}>
-                                                                <Link href="javascript:;" className={`${styles.megaA} ${styles.travelLink}`}>
-                                                                    <div className={styles.workTitle}>
+                                                               
+                                                                    <span className={styles.workTitle}>
                                                                         <Link className={styles.workTitle}
-                                                                            href="javascript:;">
+                                                                            href="#">
                                                                             Food App
                                                                         </Link>
-                                                                    </div>
-                                                                    <div className={styles.realDummy}>Food Delivery Services That... </div>
-                                                                    <div className={`${styles.foodApp} ${styles.scrn}`}>View App Screen</div>
-                                                                </Link>
+                                                                    </span>
+                                                                    <span className={styles.realDummy}>Food Delivery Services That... </span>
+                                                                    <span className={`${styles.foodApp} ${styles.scrn}`}>View App Screen</span>
+                                                               
                                                             </li>
                                                         </ul>
                                                     </div>
@@ -387,7 +387,7 @@ const Header = () => {
                                                             alt='bitswits'
                                                             loading="lazy"
                                                         />
-                                                        <Link href="javascript:;" className={styles.readMore}>
+                                                        <Link href="#" className={styles.readMore}>
                                                             <p className="text-center">Read More</p>
                                                         </Link>
                                                     </div>
@@ -397,7 +397,7 @@ const Header = () => {
                                                             alt='bitswits'
                                                             loading="lazy"
                                                         />
-                                                        <Link href="javascript:;" className={styles.readMore}>
+                                                        <Link href="#" className={styles.readMore}>
                                                             <p className="text-center">Read More</p>
                                                         </Link>
                                                     </div>
@@ -407,7 +407,7 @@ const Header = () => {
                                                             alt='bitswits'
                                                             loading="lazy"
                                                         />
-                                                        <Link href="javascript:;" className={styles.readMore}>
+                                                        <Link href="#" className={styles.readMore}>
                                                             <p className="text-center">Read More</p>
                                                         </Link>
                                                     </div>
@@ -417,7 +417,7 @@ const Header = () => {
                                                             alt='bitswits'
                                                             loading="lazy"
                                                         />
-                                                        <Link href="javascript:;" className={styles.readMore}>
+                                                        <Link href="#" className={styles.readMore}>
                                                             <p className="text-center">Read More</p>
                                                         </Link>
                                                     </div>
@@ -427,7 +427,7 @@ const Header = () => {
                                                             alt='bitswits'
                                                             loading="lazy"
                                                         />
-                                                        <Link href="javascript:;" className={styles.readMore}>
+                                                        <Link href="#" className={styles.readMore}>
                                                             <p className="text-center">Read More</p>
                                                         </Link>
                                                     </div>
@@ -437,7 +437,7 @@ const Header = () => {
                                                             alt='bitswits'
                                                             loading="lazy"
                                                         />
-                                                        <Link href="javascript:;" className={styles.readMore}>
+                                                        <Link href="#" className={styles.readMore}>
                                                             <p className="text-center">Read More</p>
                                                         </Link>
                                                     </div>
@@ -447,7 +447,7 @@ const Header = () => {
                                                             alt='bitswits'
                                                             loading="lazy"
                                                         />
-                                                        <Link href="javascript:;" className={styles.readMore}>
+                                                        <Link href="#" className={styles.readMore}>
                                                             <p className="text-center">Read More</p>
                                                         </Link>
                                                     </div>
@@ -457,19 +457,19 @@ const Header = () => {
                                     </div >
                                 </li >
                                 <li className={styles.mainLi}>
-                                    <Link href="javascript:;" className={styles.mainA}>
+                                    <Link href="#" className={styles.mainA}>
                                         <span>About</span>
                                     </Link>
                                 </li>
                                 <li className={styles.mainLi}>
-                                    <Link href="javascript:;" className={styles.mainA}>
+                                    <Link href="#" className={styles.mainA}>
                                         <span>Contact</span>
                                     </Link>
                                 </li>
                             </ul >
                         </div >
                         <div className={styles.navBtns}>
-                            <Link href="javascript:;" className={`${styles.callBtn} call-btn modal-toggle`}>
+                            <Link href="#" className={`${styles.callBtn} call-btn modal-toggle`}>
                                 Get a Call
                             </Link>
                             <Link href="tel:18335006007" className={styles.phoneBtn}>
@@ -480,7 +480,7 @@ const Header = () => {
                                 />
                                 <span>(833) 500-6007</span>
                             </Link>
-                            <Link href="javascript:LC_API.open_chat_window();" className="support-btn">
+                            <Link href="#" className="support-btn">
                                 <Image
                                     src={user}
                                     alt="bitswits"

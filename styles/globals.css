@@ -1,9 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Playfair+Display:wght@700&family=Poppins:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Playfair+Display:wght@700&family=Poppins:wght@400;500;600&display=swap");
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 :root {
   --p-color: #f69110;
   --b-color: #000000;
   --w-color: #ffffff;
+  --dg-color:#5e5c5c;
   --p-fonts: "Playfair+Display", sans-serif;
   --s-fonts: "Montserrat", sans-serif;
   --b-fonts: "Poppins", sans-serif;
@@ -33,6 +36,7 @@ html {
 }
 
 @media (min-width: 1200px) {
+
   .container,
   .container-lg,
   .container-md,
@@ -56,4 +60,114 @@ button {
 
 .border-l {
   border-left: 1px solid #ddd;
+}
+
+/* scrollbar */
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #000000; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #f69110; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #f69110; 
+}
+
+
+
+/* fontfamilys */
+.f-montserrat { font-family: 'Montserrat', sans-serif; }
+.f-poppins { font-family: 'Poppins', sans-serif; }
+.f-playfair { font-family: 'Playfair Display', serif; }
+.f-bebas{ font-family: 'Bebas Neue', sans-serif; }
+
+/* fontweight */
+.f-400 { font-weight: 400; }
+.f-500 { font-weight: 500; }
+.f-600 { font-weight: 600; }
+.f-700 { font-weight: 700; }
+
+/* fontsizes */
+.f-20{ font-size: 20px; }
+.f-14{ font-size: 14px; }
+.f-16{ font-size: 16px; }
+.f-17{ font-size: 17px; }
+.f-18{ font-size: 18px; }
+.f-30{ font-size: 30px; }
+.f-50{ font-size: 50px; }
+.f-60{ font-size: 60px; }
+
+/* lineheight */
+.lheight24{ line-height: 24px; }
+.lheight70{ line-height: 70px; }
+.lheight60{ line-height: 60px; }
+.lheight23{ line-height: 23px; }
+
+/* textalign */
+.t-center{
+  text-align: center;
+}
+.t-left{
+  text-align: left;
+}
+.t-right{
+  text-align: right;
+}
+.t-justify{
+  text-align: justify;
+}
+
+/* colors */
+.black{
+  color: var(--b-color);
+}
+.orange{
+  color: var(--p-color);
+}
+.white{
+  color: var(--w-color);
+}
+.grey { color: var(--dg-color);}
+
+
+.f-capitalize{
+  text-transform: capitalize;
+}
+
+.ourspacing{
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+
+.endor .slick-slide img {
+  display: block;
+  margin: auto;
+}
+
+.bgimageserve {
+  background-image: url(../public/images/servicesmobile/bottom-shade.webp);
+  background-position: center bottom;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 767px) {
+
+  .f-60{ font-size: 35px; }
+  .lheight70{ line-height: 45px; }
+  .d-sm-none{ display: none!important;}
+  .herofold{ padding: 18% 0 4%;  }
+
 }

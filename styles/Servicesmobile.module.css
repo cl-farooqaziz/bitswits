@@ -1,0 +1,54 @@
+.serveimg{
+
+    border: 2px solid var(--p-color);
+    border-radius: 47px;
+    padding: 2rem 1rem;
+    cursor: pointer;
+    transition: .5s;
+
+}
+
+
+.serveimg img{
+
+    margin-bottom: 1.5rem;
+
+}
+
+.serveimg h4{
+    font-family: 'Montserrat',sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    color: black;
+    margin-bottom: 1rem;
+}
+.serveimg p{
+    font-size: 14px;
+    min-height: 180px;
+    font-weight: 500;
+    color: black;
+    font-family: 'Montserrat',sans-serif;
+    text-align: justify;
+}
+
+ .more{
+    width: max-content;
+    height: 43px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 700;
+    border: 2px solid var(--p-color);
+   border-radius: 10px;
+    color: white;
+    background-color: var(--p-color);
+    width: 40%;
+    padding: 22px;
+  
+}
+
+.more:hover{
+    color: white;
+}
