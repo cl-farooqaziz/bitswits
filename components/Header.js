@@ -3,6 +3,7 @@ import Link from 'next/link';
 import Image from 'next/image'
 import styles from '@/styles/Header.module.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Navbar from 'react-bootstrap/Navbar';
 import { Container, Row, Col } from 'react-bootstrap';
 //images
 import logo from '../public/images/icons/m-logo.svg'
@@ -284,38 +285,32 @@ const Header = () => {
                                                 <Col xl={3} lg={12}>
                                                     <div className={styles.innerCol}>
                                                         <ul className={`${styles.megaUl} p-0`}>
-                                                            <li className={styles.megaList}>
-                                                               
-                                                                    <span className={styles.workTitle}>
-                                                                        <Link className={styles.workTitle} href="#">
-                                                                            Travel App
-                                                                            </Link>
-                                                                    </span>
-                                                                    <span className={styles.realDummy}>Create Hassle-Free Travel...</span>
-                                                                    <span className={`${styles.travelApp} ${styles.scrn}`}>View App Screen</span>
-                                                               
+                                                            <li className={`${styles.megaList}`}>
+                                                                <span className={styles.workTitle}>
+                                                                    <Link className={styles.workTitle} href="#">
+                                                                        Travel App
+                                                                    </Link>
+                                                                </span>
+                                                                <span className={styles.realDummy}>Create Hassle-Free Travel...</span>
+                                                                <span className={`${styles.travelApp} ${styles.scrn}`}>View App Screen</span>
                                                             </li>
-                                                            <li className={styles.megaList}>
-                                                               
-                                                                    <span className={styles.workTitle}>
-                                                                        <Link className={styles.workTitle} href="#">
-                                                                            Real Estate App
-                                                                        </Link>
-                                                                    </span>
-                                                                    <span className={styles.realDummy}>A Real Estate App Instilling...</span>
-                                                                    <span className={`${styles.estatApp} ${styles.scrn}`}>View App Screen</span>
-                                                          
+                                                            <li className={`${styles.megaList} ${styles.megaList2}`}>
+                                                                <span className={styles.workTitle}>
+                                                                    <Link className={styles.workTitle} href="#">
+                                                                        Real Estate App
+                                                                    </Link>
+                                                                </span>
+                                                                <span className={styles.realDummy}>A Real Estate App Instilling...</span>
+                                                                <span className={`${styles.estatApp} ${styles.scrn}`}>View App Screen</span>
                                                             </li>
-                                                            <li className={styles.megaList}>
-                                                               
-                                                                    <span className={styles.workTitle}>
-                                                                        <Link className={styles.workTitle} href="#">
-                                                                            Bacteria App
-                                                                        </Link>
-                                                                    </span>
-                                                                    <span className={styles.realDummy}>Bacteria Shield - Cleaning... </span>
-                                                                    <span className={`${styles.bactriApp} ${styles.scrn}`}>View App Screen</span>
-                                                             
+                                                            <li className={`${styles.megaList} ${styles.megaList2}`}>
+                                                                <span className={styles.workTitle}>
+                                                                    <Link className={styles.workTitle} href="#">
+                                                                        Bacteria App
+                                                                    </Link>
+                                                                </span>
+                                                                <span className={styles.realDummy}>Bacteria Shield - Cleaning... </span>
+                                                                <span className={`${styles.bactriApp} ${styles.scrn}`}>View App Screen</span>
                                                             </li>
                                                             <div className={styles.view}>
                                                                 <Link href="#" className={styles.btnView}>View all Works</Link>
@@ -326,38 +321,33 @@ const Header = () => {
                                                 <Col xl={3} lg={12}>
                                                     <div className={styles.innerCol}>
                                                         <ul className={`${styles.megaUl} p-0`}>
-                                                            <li className={styles.megaList}>
-                                                               
-                                                                    <span className={styles.workTitle}>
-                                                                        <Link className={styles.workTitle} href="#">
-                                                                            Sound App
-                                                                        </Link>
-                                                                    </span>
-                                                                    <span className={styles.realDummy}>Developed A Music Streaming... </span>
-                                                                    <span className={`${styles.soundApp} ${styles.scrn}`}>View App Screen</span>
-                                                            
+                                                            <li className={`${styles.megaList}`}>
+                                                                <span className={styles.workTitle}>
+                                                                    <Link className={styles.workTitle} href="#">
+                                                                        Sound App
+                                                                    </Link>
+                                                                </span>
+                                                                <span className={styles.realDummy}>Developed A Music Streaming... </span>
+                                                                <span className={`${styles.soundApp} ${styles.scrn}`}>View App Screen</span>
                                                             </li>
-                                                            <li className={styles.megaList}>
-                                                               
-                                                                    <span className={styles.workTitle}>
-                                                                        <Link className={styles.workTitle} href="#">
-                                                                            PROHealth App
-                                                                        </Link>
-                                                                    </span>
-                                                                    <span className={styles.realDummy}>AS Medicare - A Pharmacy... </span>
-                                                                    <span className={`${styles.pharmaApp} ${styles.scrn}`}>View App Screen</span>
-                                                           
+                                                            <li className={`${styles.megaList} ${styles.megaList2}`}>
+                                                                <span className={styles.workTitle}>
+                                                                    <Link className={styles.workTitle} href="#">
+                                                                        PROHealth App
+                                                                    </Link>
+                                                                </span>
+                                                                <span className={styles.realDummy}>AS Medicare - A Pharmacy... </span>
+                                                                <span className={`${styles.pharmaApp} ${styles.scrn}`}>View App Screen</span>
                                                             </li>
-                                                            <li className={styles.megaList}>
-                                                               
-                                                                    <span className={styles.workTitle}>
-                                                                        <Link className={styles.workTitle} href="#">
-                                                                            Rider App
-                                                                        </Link>
-                                                                    </span>
-                                                                    <span className={styles.realDummy}>EZ Ride is a two-sided market... </span>
-                                                                    <span className={`${styles.riderApp} ${styles.scrn}`}>View App Screen</span>
-                                                              
+                                                            <li className={`${styles.megaList} ${styles.megaList2}`}>
+
+                                                                <span className={styles.workTitle}>
+                                                                    <Link className={styles.workTitle} href="#">
+                                                                        Rider App
+                                                                    </Link>
+                                                                </span>
+                                                                <span className={styles.realDummy}>EZ Ride is a two-sided market... </span>
+                                                                <span className={`${styles.riderApp} ${styles.scrn}`}>View App Screen</span>
                                                             </li>
                                                         </ul>
                                                     </div>
@@ -365,17 +355,15 @@ const Header = () => {
                                                 <Col xl={3} lg={12}>
                                                     <div className={styles.innerCol}>
                                                         <ul className={`${styles.megaUl} p-0`}>
-                                                            <li className={styles.megaList}>
-                                                               
-                                                                    <span className={styles.workTitle}>
-                                                                        <Link className={styles.workTitle}
-                                                                            href="#">
-                                                                            Food App
-                                                                        </Link>
-                                                                    </span>
-                                                                    <span className={styles.realDummy}>Food Delivery Services That... </span>
-                                                                    <span className={`${styles.foodApp} ${styles.scrn}`}>View App Screen</span>
-                                                               
+                                                            <li className={`${styles.megaList}`}>
+                                                                <span className={styles.workTitle}>
+                                                                    <Link className={styles.workTitle}
+                                                                        href="#">
+                                                                        Food App
+                                                                    </Link>
+                                                                </span>
+                                                                <span className={styles.realDummy}>Food Delivery Services That... </span>
+                                                                <span className={`${styles.foodApp} ${styles.scrn}`}>View App Screen</span>
                                                             </li>
                                                         </ul>
                                                     </div>
@@ -391,7 +379,7 @@ const Header = () => {
                                                             <p className="text-center">Read More</p>
                                                         </Link>
                                                     </div>
-                                                    <div className={`${styles.workDev} ${styles.imgLeft}`}>
+                                                    <div className={`${styles.estatDev} ${styles.imgLeft}`}>
                                                         <Image className='img-fluid mt-4'
                                                             src={media2}
                                                             alt='bitswits'

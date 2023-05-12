@@ -33,6 +33,7 @@
   padding: 0;
   display: flex;
   align-items: center;
+  justify-content: flex-end;
 }
 
 .mainUl {
@@ -278,10 +279,12 @@
 .realDummy {
   font-size: 11px;
   line-height: 1;
-  margin-bottom: 0%;
+  margin-bottom: 10px;
+  margin-top: 2px;
   width: 100%;
   display: table;
   color: #5e5c5c;
+  font-family: "Poppins", sans-serif;
 }
 
 .scrn {
@@ -289,10 +292,15 @@
   width: fit-content;
   color: #f69110;
   margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.megaList2 {
+  margin-top: 25px;
 }
 
 .view {
-  margin-top: 30px;
+  margin-top: 50px;
 }
 
 .btnView {
@@ -362,10 +370,23 @@
   display: none;
 }
 
+@keyframes growDown {
+  0% {
+    transform: scaleY(0);
+  }
+  80% {
+    transform: scaleY(1.1);
+  }
+  100% {
+    transform: scaleY(1);
+  }
+}
+
 @media screen and (max-width: 1200px) {
   .navMenu {
     display: none;
   }
+
   .navBtns {
     margin-left: auto;
   }
@@ -382,5 +403,11 @@
     display: block;
     margin: 6px auto;
     transition: 0.5s ease-in-out;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .navBtns {
+    display: none;
   }
 }
