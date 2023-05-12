@@ -1,11 +1,10 @@
 .footer {
   background-color: var(--b-color);
- 
 }
 
 .footerNav {
   padding-top: 60px;
-  padding-bottom: 40px;
+  border-bottom: 1px solid #5e5c5c;
 }
 
 .footTitle {
@@ -28,4 +27,58 @@
   line-height: 30px;
   transition: 0.5s ease-in-out;
   font-family: "Montserrat", sans-serif;
+}
+
+.footerNav .contacts li a {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  line-height: 30px;
+  font-size: 13px;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  color: #f69110;
+}
+
+.footNotes {
+  padding: 1rem 0;
+  text-align: center;
+}
+
+.socials {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding-left: 0;
+}
+
+.socials img {
+  filter: grayscale(100%);
+  transition: 0.3s ease-in-out;
+}
+
+.socials img:hover {
+  filter: grayscale(0%);
+}
+
+.termsMain {
+  float: right;
+}
+
+.termsCo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.trmCon a:hover {
+  color: #fff;
+}
+
+.termsCo li a {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: underline;
 }
