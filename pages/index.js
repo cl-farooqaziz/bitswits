@@ -14,6 +14,7 @@ import servicesmobile6 from '/public/images/servicesmobile/6.webp'
 import { Container, Row } from 'react-bootstrap'
 import Publication from '@/components/Publication'
 import Range from '@/components/Range'
+import Integration from '@/components/Integration'
 
 export default function Home() {
 
@@ -77,7 +78,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <meta charset="UTF-8" />
+        <meta charSet="UTF-8" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>Top Mobile App Development Company - Bitswits.</title>
@@ -136,7 +137,7 @@ export default function Home() {
 
       <Range />
 
-
+        <Integration />
 
       <Whatourclients />
 

@@ -16,7 +16,7 @@
     text-transform: uppercase;
     color: var(--p-color);
     display: flex;
-    align-items: end;
+    align-items: flex-end;
     margin-bottom: 2px;
 }
 .arrowBtn:hover{
