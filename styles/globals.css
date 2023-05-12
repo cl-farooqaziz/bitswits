@@ -2,40 +2,58 @@
 
 :root {
   --p-color: #f69110;
-  /* --s-color: #0071bc; */
   --b-color: #000000;
   --w-color: #ffffff;
-  /* --pr-color: #160629; */
-  /* --dg-color: #5e5c5c; */
+  --p-fonts: "Playfair+Display", sans-serif;
+  --s-fonts: "Montserrat", sans-serif;
+  --b-fonts: "Poppins", sans-serif;
 }
 
 *,
 ::after,
 ::before {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 a {
-    text-decoration: none
+  text-decoration: none;
 }
 
 li {
-    list-style: none
+  list-style: none;
 }
 
 body,
 html {
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+@media (min-width: 1200px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl {
+    max-width: 1180px;
+  }
 }
 
 :focus-visible {
-    outline: inherit
+  outline: inherit;
 }
 
 button {
-    cursor: pointer
+  cursor: pointer;
+}
+
+.border-r {
+  border-right: 1px solid #ddd;
+}
+
+.border-l {
+  border-left: 1px solid #ddd;
 }

@@ -1,0 +1,31 @@
+.footer {
+  background-color: var(--b-color);
+  margin-top: 105px;
+}
+
+.footerNav {
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+.footTitle {
+  border-bottom: 1px solid #5e5c5c;
+  padding: 0;
+}
+
+.footTitle h3 {
+  font-size: 22px;
+  color: #fff;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+}
+
+.footerNav ul li a {
+  color: #b5b5b5;
+  font-weight: 600;
+  display: block;
+  font-size: 13px;
+  line-height: 30px;
+  transition: 0.5s ease-in-out;
+  font-family: "Montserrat", sans-serif;
+}
