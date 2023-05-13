@@ -1,0 +1,33 @@
+.faqs {
+  text-align: center;
+  padding: 100px 0;
+}
+
+.faqs h3 {
+  font-size: 17px;
+  font-weight: 600;
+  color: #000000;
+  font-family: "Poppins", sans-serif;
+}
+
+.faqs p {
+    font-size: 14px;
+    font-weight: 300;
+    color: #000000;
+    font-family: "Poppins", sans-serif;
+  }
+
+  .faqs a{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: var(--p-color);
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+  }
+
+  .faqs a:hover{
+    color: var(--p-color);
+  }

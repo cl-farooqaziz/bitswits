@@ -71,7 +71,7 @@ const Whatourclients = () => {
 
 
               </div>
-              <h3 className='f-18 f-700 orange mb-4 f-montserrat'>GRATITUDE FROM GLOBAL FOLLOWERS </h3>
+              <h3 className='f-18 f-700 orange mb-3 f-montserrat'>GRATITUDE FROM GLOBAL FOLLOWERS </h3>
 
               <h2 className={styles.value}>Rave Reviews from Our <br></br> Valued Clients</h2>
               <p className={` ${styles.canva} black`}>
@@ -119,7 +119,12 @@ const Whatourclients = () => {
               <div className={styles.whatclientlogo}>    </div>
               <h3 className='f-18 f-700 orange mb-4 f-montserrat'>GRATITUDE FROM GLOBAL FOLLOWERS </h3>
               <h2 className={styles.value}>Rave Reviews from Our <br></br> Valued Clients</h2>
-              <p className={` ${styles.canva} font15 fw100 font-f color-black`}>I worked with Sam Jordan for a few months preparing my first book. Sam was very helpful and courteous. We connected on the phone several times a week. I am not the most patient person, but I found Sam to be capable and professional. He helped me overcome any fears I had about the process. I had some difficulty understanding the formatting process for chapters and their titles. Sam walked me through it with very few problems. I now think of Sam as a friend. I have already written several chapters for a new book, and when it’s ready, Sam will be the one I look for to help me.</p>
+              <p className={` ${styles.canva} font15 fw100 font-f color-black`}>
+                We recently worked with BitsWits to build a custom mobile app for our business. Their mobile app
+                development company team was very knowledgeable and professional throughout the entire process,
+                providing expert guidance and support every step of the way. We would highly recommend them to
+                anyone looking for a reliable and cost-effective mobile app development solution.
+              </p>
 
               <div className={styles.clientData}>
                 <div>

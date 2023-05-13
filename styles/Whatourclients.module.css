@@ -1,8 +1,9 @@
 .ourclients {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 70px;
+  padding-bottom: 70px;
   font-family: "Poppins";
 }
+
 /* .ourclients img {
   filter: brightness(0);
 } */
@@ -20,23 +21,23 @@
   padding-bottom: 5px;
 }
 
-.clientData{
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    gap: 10px;
-    margin-top: 5%;
+.clientData {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  margin-top: 5%;
 }
 
-.clientData img{
+.clientData img {
   width: 125px;
 }
 
-.clientDataTxt{
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    flex-direction: column;
+.clientDataTxt {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .stars {
@@ -46,9 +47,9 @@
 
 .canva {
   max-width: 864px;
-    line-height: 1.7;
-    font-size: 25px;
-    color: black;
+  line-height: 1.7;
+  font-size: 25px;
+  color: black;
 }
 
 .looking {
@@ -72,32 +73,26 @@
 
 .value {
   font-size: 50px;
-  font-family: 'Playfair Display', serif; 
+  font-family: "Playfair Display", serif;
   font-weight: 700;
   line-height: 60px;
   margin-bottom: 2%;
   color: black;
 }
 
-
-@media (max-width:767px)  {
-
+@media (max-width: 767px) {
   .value {
     font-size: 35px;
     font-family: "Poppins";
     font-weight: 700;
     line-height: 1;
     margin-bottom: 5%;
+  }
 }
 
- }
-
-
-@media (max-width:480px)  {
-
-.canva{
+@media (max-width: 480px) {
+  .canva {
     font-size: 14px;
     text-align: justify;
+  }
 }
-
- }

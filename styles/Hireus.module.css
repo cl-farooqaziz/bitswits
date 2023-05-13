@@ -1,0 +1,51 @@
+.hireUs {
+  position: relative;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.hireUs:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  margin: 0 auto;
+  background-image: url(../public/images/flods/top-shade.webp);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  height: 405px;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.9;
+}
+
+.btnHire {
+  padding: 15px 65px;
+  font-size: 15px;
+  background-color: #fff;
+  font-family: Montserrat;
+  color: #000;
+  font-weight: 700;
+  border-radius: 50px;
+  box-shadow: #f69110 2px 2px 29px 0;
+  border: unset;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: 0.5s ease-in-out;
+}
+
+.btnHire:hover {
+  color: #000;
+}
+
+.team .slideBox {
+  border: 1px solid #000;
+  border-right: 0;
+  height: 140px;
+  width: 237px;
+  display: flex !important;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}

@@ -15,6 +15,10 @@ import { Container, Row } from 'react-bootstrap'
 import Publication from '@/components/Publication'
 import Range from '@/components/Range'
 import Integration from '@/components/Integration'
+import Hireus from '@/components/Hireus'
+import Consultation from '@/components/Consultation'
+import Faqs from '@/components/Faqs'
+import GetInTouch from '@/components/GetInTouch'
 
 export default function Home() {
 
@@ -137,9 +141,17 @@ export default function Home() {
 
       <Range />
 
-        <Integration />
+      <Hireus />
+
+      <Integration />
 
       <Whatourclients />
+
+      <Consultation />
+
+      <Faqs />
+
+      <GetInTouch />
 
     </>
   )

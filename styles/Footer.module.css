@@ -29,6 +29,10 @@
   font-family: "Montserrat", sans-serif;
 }
 
+.footerNav ul li a:hover{
+  color: #f69110;
+}
+
 .footerNav .contacts li a {
   display: flex;
   align-items: center;
