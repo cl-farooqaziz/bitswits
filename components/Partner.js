@@ -17,7 +17,7 @@ const Partner = () => {
                         Shining Star!</h2>
                 </div>
                 <div>
-                    <Row>
+                    <Row className='gy-5'>
                         <Col lg={6}>
                             <div className={styles.rightpadding}>
                                 <h3 className="black f-30 f-playfair f-700 mb-3">Mobile <br className="d-none d-xl-block" /> Application Development</h3>
