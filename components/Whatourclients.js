@@ -85,8 +85,8 @@ const Whatourclients = () => {
                 </div>
                 <div className={styles.clientDataTxt}>
                   <p className='f-18 f-700 f-montserrat orange mb-0'><b>Bryce Carlos</b></p>
-                  <h4 class="black f-15 f-montserrat my-2">
-                    <span class="f-400">CEO / Founder <strong class="f-uppercase">Soul Sound</strong> </span>
+                  <h4 className="black f-15 f-montserrat my-2">
+                    <span className="f-400">CEO / Founder <strong className="f-uppercase">Soul Sound</strong> </span>
                   </h4>
                   <Image alt="bitswits" loading="lazy" className='img-fluid'
                     src={rating}
@@ -114,8 +114,8 @@ const Whatourclients = () => {
                 </div>
                 <div className={styles.clientDataTxt}>
                   <p className='f-18 f-700 f-montserrat orange mb-0'><b>Aden Ward</b></p>
-                  <h4 class="black f-15 f-montserrat my-2">
-                    <span class="f-400">Co-Founder <strong class="f-uppercase">ProHealth</strong> </span>
+                  <h4 className="black f-15 f-montserrat my-2">
+                    <span className="f-400">Co-Founder <strong className="f-uppercase">ProHealth</strong> </span>
                   </h4>
                   <Image alt="bitswits" loading="lazy" className='img-fluid'
                     src={rating}
@@ -143,8 +143,8 @@ const Whatourclients = () => {
                 </div>
                 <div className={styles.clientDataTxt}>
                   <p className='f-18 f-700 f-montserrat orange mb-0'><b>Annabella Josh</b></p>
-                  <h4 class="black f-15 f-montserrat my-2">
-                    <span class="f-400">CEO <strong class="f-uppercase">Find Food</strong> </span>
+                  <h4 className="black f-15 f-montserrat my-2">
+                    <span className="f-400">CEO <strong className="f-uppercase">Find Food</strong> </span>
                   </h4>
                   <Image alt="bitswits" loading="lazy" className='img-fluid'
                     src={rating}
@@ -171,8 +171,8 @@ const Whatourclients = () => {
                 </div>
                 <div className={styles.clientDataTxt}>
                   <p className='f-18 f-700 f-montserrat orange mb-0'><b>Abraham Jones</b></p>
-                  <h4 class="black f-15 f-montserrat my-2">
-                    <span class="f-400">Co-Founder <strong class="f-uppercase">EZ Ride</strong> </span>
+                  <h4 className="black f-15 f-montserrat my-2">
+                    <span className="f-400">Co-Founder <strong className="f-uppercase">EZ Ride</strong> </span>
                   </h4>
                   <Image alt="bitswits" loading="lazy" className='img-fluid'
                     src={rating}
@@ -201,8 +201,8 @@ const Whatourclients = () => {
                 </div>
                 <div className={styles.clientDataTxt}>
                   <p className='f-18 f-700 f-montserrat orange mb-0'><b>Chavi Miles</b></p>
-                  <h4 class="black f-15 f-montserrat my-2">
-                    <span class="f-400">Co-Founder <strong class="f-uppercase">Bliss Travel</strong> </span>
+                  <h4 className="black f-15 f-montserrat my-2">
+                    <span className="f-400">Co-Founder <strong className="f-uppercase">Bliss Travel</strong> </span>
                   </h4>
                   <Image alt="bitswits" loading="lazy" className='img-fluid'
                     src={rating}
@@ -229,8 +229,8 @@ const Whatourclients = () => {
                 </div>
                 <div className={styles.clientDataTxt}>
                   <p className='f-18 f-700 f-montserrat orange mb-0'><b>Andrew Drake</b></p>
-                  <h4 class="black f-15 f-montserrat my-2">
-                    <span class="f-400">Founder and CEO <strong class="f-uppercase">Mark Place</strong> </span>
+                  <h4 className="black f-15 f-montserrat my-2">
+                    <span className="f-400">Founder and CEO <strong className="f-uppercase">Mark Place</strong> </span>
                   </h4>
                   <Image alt="bitswits" loading="lazy" className='img-fluid'
                     src={rating}
@@ -258,8 +258,8 @@ const Whatourclients = () => {
                 </div>
                 <div className={styles.clientDataTxt}>
                   <p className='f-18 f-700 f-montserrat orange mb-0'><b>Winnie Brooks</b></p>
-                  <h4 class="black f-15 f-montserrat my-2">
-                    <span class="f-400">Founder and CEO <strong class="f-uppercase">Glow Spa</strong> </span>
+                  <h4 className="black f-15 f-montserrat my-2">
+                    <span className="f-400">Founder and CEO <strong className="f-uppercase">Glow Spa</strong> </span>
                   </h4>
                   <Image alt="bitswits" loading="lazy" className='img-fluid'
                     src={rating}
