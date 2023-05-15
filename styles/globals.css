@@ -240,7 +240,7 @@ button {
 
 .testtimonials .slick-slider .slick-next:before,
 .bannerslider.slick-slider .slick-next:before {
-  content: url(../public/images/icons/arrow.webp);
+  content: url(/images/icons/arrow.webp);
   opacity: 1;
 }
 
