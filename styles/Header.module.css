@@ -353,18 +353,7 @@
   color: #fff;
 }
 
-.estatDev,
-.bacteriaDev,
-.soundDev,
-.pharmaDev,
-.riderDev,
-.foodDev {
-  display: none;
-}
 
-.travelApp:hover .travelDev {
-  display: block;
-}
 
 .navTogle {
   display: none;

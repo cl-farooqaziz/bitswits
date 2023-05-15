@@ -269,6 +269,27 @@ button {
   position: relative;
 }
 
+
+.headimg .d-block img{
+  transform-origin: top right;
+animation: .5s ease-in-out forwards growLeft;
+  margin: 0 auto;
+  display: block;
+}
+
+@keyframes growLeft{
+0% {
+transform: scaleX(0);
+}
+80% {
+transform: scaleX(1.1);
+}
+100% {
+transform: scaleX(1);
+}
+}
+
+
 /* ==================================== */
 
 @media screen and (max-width: 767px) {

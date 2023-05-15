@@ -151,7 +151,7 @@ const Footer = () => {
                                         <Link href="mailto:info@bitswits.co">
                                             <Image alt="bitswits"      className='img-fluid'
                                                 src={mail}
-                                                alt='bitswits'
+                                            
                                                 loading="lazy"
                                             />
                                             <span className="email f-upperCase">Contact Email</span>
@@ -161,7 +161,7 @@ const Footer = () => {
                                         <Link href="tel:13123795987">
                                             <Image alt="bitswits"      className='img-fluid'
                                                 src={call}
-                                                alt='bitswits'
+                                          
                                                 loading="lazy"
                                             />
                                             <span className="number">+1 312 379 5987</span>
@@ -171,7 +171,7 @@ const Footer = () => {
                                         <Link href="tel:18335006007">
                                             <Image alt="bitswits"      className='img-fluid'
                                                 src={call}
-                                                alt='bitswits'
+                                        
                                                 loading="lazy"
                                             />
                                             <span className="number">+1 833 500 6007</span>
@@ -191,7 +191,7 @@ const Footer = () => {
                                         <Link href="https://www.facebook.com/officialbitswits" target="_blank" rel="noopener noreferrer">
                                             <Image alt="bitswits"      className='img-fluid'
                                                 src={fb}
-                                                alt='bitswits'
+                                           
                                                 loading="lazy"
                                             />
                                         </Link>
@@ -200,7 +200,7 @@ const Footer = () => {
                                         <Link href="https://www.instagram.com/officialbitswits/" target="_blank" rel="noopener noreferrer">
                                             <Image alt="bitswits"      className='img-fluid'
                                                 src={inta}
-                                                alt='bitswits'
+                                 
                                                 loading="lazy"
                                             />
                                         </Link>
@@ -209,7 +209,7 @@ const Footer = () => {
                                         <Link href="https://twitter.com/BitsWits_/" target="_blank" rel="noopener noreferrer">
                                             <Image alt="bitswits"      className='img-fluid'
                                                 src={tweet}
-                                                alt='bitswits'
+                                    
                                                 loading="lazy"
                                             />
                                         </Link>
@@ -218,7 +218,7 @@ const Footer = () => {
                                         <Link href="https://www.linkedin.com/company/officialbitswits" target="_blank" rel="noopener noreferrer">
                                             <Image alt="bitswits"      className='img-fluid'
                                                 src={linkedin}
-                                                alt='bitswits'
+                                    
                                                 loading="lazy"
                                             />
                                         </Link>
@@ -227,7 +227,7 @@ const Footer = () => {
                                         <Link href="https://www.youtube.com/@officialbitswits" target="_blank" rel="noopener noreferrer">
                                             <Image alt="bitswits"      className='img-fluid'
                                                 src={youtube}
-                                                alt='bitswits'
+                                        
                                                 loading="lazy"
                                             />
                                         </Link>

@@ -19,6 +19,8 @@ import Hireus from '@/components/Hireus'
 import Consultation from '@/components/Consultation'
 import Faqs from '@/components/Faqs'
 import GetInTouch from '@/components/GetInTouch'
+import Locations from '@/components/Locations'
+import Videotestimonial from '@/components/Videotestimonial'
 
 export default function Home() {
 
@@ -147,11 +149,15 @@ export default function Home() {
 
       <Whatourclients />
 
+      <Videotestimonial/>
+
       <Consultation />
 
       <Faqs />
 
       <GetInTouch />
+
+      <Locations />
 
     </>
   )

@@ -13,7 +13,7 @@ const Consultation = () => {
                             <h3 className="orange f-18 f-700 f-montserrat">GET A FREE CONSULTATION</h3>
                             <h2 className="white f-50 f-700  f-playfair mt-3 mb-5">
                                 Looking For Expert Guidance On <br />
-                                RYour Mobile App Development <br /> Project?
+                                Your Mobile App Development <br /> Project?
                             </h2>
                             <Link href='#' className={`${styles.btnConslt}`}>
                                 CLAIM YOUR COMPLIMENTARY CONSULTANCY SESSION TODAY

@@ -67,7 +67,7 @@ const Endorsements = () => {
 
                                 <br className="d-block d-md-none d-sm-none" />
 
-                                <p className="f-14 f-montserrat mb-2 lheight23">
+                                <p className="f-14 f-montserrat mb-2 lheight23 t-justify">
                                     Thriving on accelerating the path to disruption and value creation in all directions has enabled us to receive acknowledgment and recognition by leading ratings and review platforms.
                                 </p>
 
@@ -91,43 +91,43 @@ const Endorsements = () => {
                                     <div>
                                         <Image alt="bitswits"      loading="lazy" className='img-fluid'
                                             src={banslider1}
-                                            alt='bitswits'
+                                      
                                         />
                                     </div>
                                     <div>
                                         <Image alt="bitswits"      loading="lazy" className='img-fluid'
                                             src={banslider2}
-                                            alt='bitswits'
+                                           
                                         />
                                     </div>
                                     <div>
                                         <Image alt="bitswits"      loading="lazy" className='img-fluid'
                                             src={banslider3}
-                                            alt='bitswits'
+                                            
                                         />
                                     </div>
                                     <div>
                                         <Image alt="bitswits"      loading="lazy" className='img-fluid'
                                             src={banslider4}
-                                            alt='bitswits'
+                                          
                                         />
                                     </div>
                                     <div>
                                         <Image alt="bitswits"      loading="lazy" className='img-fluid'
                                             src={banslider5}
-                                            alt='bitswits'
+                                           
                                         />
                                     </div>
                                     <div>
                                         <Image alt="bitswits"      loading="lazy" className='img-fluid'
                                             src={banslider6}
-                                            alt='bitswits'
+                                            
                                         />
                                     </div>
                                     <div>
                                         <Image alt="bitswits"      loading="lazy" className='img-fluid'
                                             src={banslider7}
-                                            alt='bitswits'
+                                           
                                         />
                                     </div>
                                 </Slider>

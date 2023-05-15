@@ -84,12 +84,12 @@ const Whatourclients = () => {
                 <div>
                   <Image alt="bitswits"      loading="lazy" className='img-fluid'
                     src={avtar1}
-                    alt='bitswits'
+                   
                   />
                 </div>
                 <div className={styles.clientDataTxt}>
                   <p className='font18 color-blue mb-1'><b>Dyuti Hai</b></p>
-                  <p className={styles.stars}><AiFillStar size={25} /> <AiFillStar size={25} /> <AiFillStar size={25} /> <AiFillStar size={25} /> <AiFillStar size={25} /></p>
+                  <p className={styles.stars}><AiFillStar size={35} /> <AiFillStar size={35} /> <AiFillStar size={35} /> <AiFillStar size={35} /> <AiFillStar size={35} /></p>
                 </div>
               </div>
             </div>
@@ -105,12 +105,12 @@ const Whatourclients = () => {
                 <div>
                   <Image alt="bitswits"      loading="lazy" className='img-fluid'
                     src={avtar2}
-                    alt='bitswits'
+                    
                   />
                 </div>
                 <div className={styles.clientDataTxt}>
                   <p className='font18 color-blue mb-1'><b>James Moris</b></p>
-                  <p className={styles.stars}><AiFillStar size={25} /> <AiFillStar size={25} /> <AiFillStar size={25} /> <AiFillStar size={25} /> <AiFillStar size={25} /></p>
+                  <p className={styles.stars}><AiFillStar size={35} /> <AiFillStar size={35} /> <AiFillStar size={35} /> <AiFillStar size={35} /> <AiFillStar size={35} /></p>
                 </div>
               </div>
             </div>
@@ -130,12 +130,12 @@ const Whatourclients = () => {
                 <div>
                   <Image alt="bitswits"      loading="lazy" className='img-fluid'
                     src={avtar3}
-                    alt='bitswits'
+              
                   />
                 </div>
                 <div className={styles.clientDataTxt}>
                   <p className='font18 color-blue mb-1'><b>Ron</b></p>
-                  <p className={styles.stars}><AiFillStar size={25} /> <AiFillStar size={25} /> <AiFillStar size={25} /> <AiFillStar size={25} /> <AiFillStar size={25} /></p>
+                  <p className={styles.stars}><AiFillStar size={35} /> <AiFillStar size={35} /> <AiFillStar size={35} /> <AiFillStar size={35} /> <AiFillStar size={35} /></p>
                 </div>
               </div>
             </div>

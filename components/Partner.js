@@ -21,7 +21,7 @@ const Partner = () => {
                         <Col lg={6}>
                             <div className={styles.rightpadding}>
                                 <h3 className="black f-30 f-playfair f-700 mb-3">Mobile <br className="d-none d-xl-block" /> Application Development</h3>
-                                <p className="f-14 black f-500 f-montserrat mb-4">
+                                <p className="f-14 black f-500 f-montserrat mb-4 t-justify">
                                     BitsWits mobile app developers love creating awesome mobile apps for you with all the challenges accepted. With the best Android and iOS app development, we are the perfect app development company in the USA to get your app idea off the ground!
                                 </p>
                                 <Link href="#" className={styles.arrowBtn}>
@@ -37,7 +37,7 @@ const Partner = () => {
                             <div className={styles.leftpadding}>
                                 <h3 className="black f-30 f-playfair f-700 mb-3">Mobile <br className="d-none d-xl-block" /> Game
                                     Development</h3>
-                                <p className="card-pra f-14 black f-500 f-montserrat mb-4">
+                                <p className="card-pra f-14 black f-500 f-montserrat mb-4 t-justify">
                                     Our expert game developers are best when it comes to developing a concept, launching the game, and sustaining success. We strive to develop engaging gaming applications to elevate your project to its full potential - all with the utmost professionalism.
                                 </p>
                                 <Link href="#" className={styles.arrowBtn}>

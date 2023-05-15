@@ -24,6 +24,84 @@ import media7 from '../public/images/media/7.webp'
 
 
 const Header = () => {
+
+    const [travelappshow, settravelapp] = useState(true);
+    const [estatappshow, setestatapp] = useState(false);
+    const [bacteriashow, setbacteria] = useState(false);
+    const [soundappshow, setsoundapp] = useState(false);
+    const [healthappshow, sethealthapp] = useState(false);
+    const [riderappshow, setriderapp] = useState(false);
+    const [foodappshow, setfoodapp] = useState(false);
+
+    function travelapp() {
+
+        settravelapp(true);
+        setestatapp(false);
+        setbacteria(false);
+        setsoundapp(false);
+        sethealthapp(false);
+        setriderapp(false);
+        setfoodapp(false);
+
+    }
+    function estatapp() {
+
+        setestatapp(true);
+        settravelapp(false);
+        setbacteria(false);
+        setsoundapp(false);
+        sethealthapp(false);
+        setriderapp(false);
+        setfoodapp(false);
+
+    }
+    function bacteria() {
+
+        setbacteria(true);
+        settravelapp(false);
+        setestatapp(false);
+        setsoundapp(false);
+        sethealthapp(false);
+        setriderapp(false);
+        setfoodapp(false);
+    }
+    function soundapp() {
+        setsoundapp(true);
+        setbacteria(false);
+        settravelapp(false);
+        setestatapp(false);
+        sethealthapp(false);
+        setriderapp(false);
+        setfoodapp(false);
+    }
+    function healthapp() {
+        sethealthapp(true);
+        setsoundapp(false);
+        setbacteria(false);
+        settravelapp(false);
+        setestatapp(false);
+        setriderapp(false);
+        setfoodapp(false);
+    }
+    function riderapp() {
+        setriderapp(true);
+        sethealthapp(false);
+        setsoundapp(false);
+        setbacteria(false);
+        settravelapp(false);
+        setestatapp(false);
+        setfoodapp(false);
+    }
+    function foodapp() {
+        setriderapp(false);
+        sethealthapp(false);
+        setsoundapp(false);
+        setbacteria(false);
+        settravelapp(false);
+        setestatapp(false);
+        setfoodapp(true);
+    }
+
     return (
         <>
             <header className={styles.header}>
@@ -31,13 +109,13 @@ const Header = () => {
                     <nav className={styles.headerNav}>
                         <div className={styles.navLogo}>
                             <Link href="/" className="d-block">
-                                <Image alt="bitswits"      className='img-fluid'
+                                <Image alt="bitswits" className='img-fluid'
                                     src={logo}
-                                    alt='bitswits'
+
                                 />
                             </Link>
                         </div>
-                        <div className={styles.navMenu}>
+                        <div className={`${styles.navMenu} headimg`}>
                             <ul className={styles.mainUl}>
                                 <li className={styles.mainLi}>
                                     <Link href="/" className={styles.mainA}>
@@ -47,9 +125,9 @@ const Header = () => {
                                 <li className={`${styles.mainLi} ${styles.megaLi}`}>
                                     <Link href="#" className={styles.mainA}>
                                         <span>Services</span>
-                                        <Image alt="bitswits"      className='img-fluid'
+                                        <Image alt="bitswits" className='img-fluid'
                                             src={arrow}
-                                            alt='bitswits'
+
                                             loading="lazy"
                                         />
                                     </Link>
@@ -215,9 +293,9 @@ const Header = () => {
                                                         <Col xl={3}>
                                                             <div className={`${styles.conRow} d-flex align-items-center`}>
                                                                 <div className={styles.new}>
-                                                                    <Image alt="bitswits"   
+                                                                    <Image alt="bitswits"
                                                                         src={mIcon}
-                                                                        
+
                                                                     />
                                                                 </div>
                                                                 <div className={styles.contains}>
@@ -232,9 +310,9 @@ const Header = () => {
                                                         <Col xl={3}>
                                                             <div className={`${styles.conRow} d-flex align-items-center`}>
                                                                 <div className={styles.new}>
-                                                                    <Image alt="bitswits"   
+                                                                    <Image alt="bitswits"
                                                                         src={gIcon}
-                                                                        
+
                                                                     />
                                                                 </div>
                                                                 <div className={styles.contains}>
@@ -249,9 +327,9 @@ const Header = () => {
                                                         <Col xl={3}>
                                                             <div className="d-flex align-items-center">
                                                                 <div className={styles.new}>
-                                                                    <Image alt="bitswits"   
+                                                                    <Image alt="bitswits"
                                                                         src={dicon}
-                                                                        
+
                                                                     />
                                                                 </div>
                                                                 <div className={`${styles.contains} 
@@ -273,9 +351,9 @@ const Header = () => {
                                 <li className={`${styles.mainLi} ${styles.megaLi}`}>
                                     <Link href="#" className={styles.mainA}>
                                         <span>Our Work</span>
-                                        <Image alt="bitswits"      className='img-fluid'
+                                        <Image alt="bitswits" className='img-fluid'
                                             src={arrow}
-                                            alt='bitswits'
+
                                             loading="lazy"
                                         />
                                     </Link>
@@ -292,7 +370,7 @@ const Header = () => {
                                                                     </Link>
                                                                 </span>
                                                                 <span className={styles.realDummy}>Create Hassle-Free Travel...</span>
-                                                                <span className={`${styles.travelApp} ${styles.scrn}`}>View App Screen</span>
+                                                                <span onMouseOver={travelapp} className={`${styles.travelApp} ${styles.scrn}`}>View App Screen</span>
                                                             </li>
                                                             <li className={`${styles.megaList} ${styles.megaList2}`}>
                                                                 <span className={styles.workTitle}>
@@ -301,7 +379,7 @@ const Header = () => {
                                                                     </Link>
                                                                 </span>
                                                                 <span className={styles.realDummy}>A Real Estate App Instilling...</span>
-                                                                <span className={`${styles.estatApp} ${styles.scrn}`}>View App Screen</span>
+                                                                <span onMouseOver={estatapp} className={`${styles.estatApp} ${styles.scrn}`}>View App Screen</span>
                                                             </li>
                                                             <li className={`${styles.megaList} ${styles.megaList2}`}>
                                                                 <span className={styles.workTitle}>
@@ -310,7 +388,7 @@ const Header = () => {
                                                                     </Link>
                                                                 </span>
                                                                 <span className={styles.realDummy}>Bacteria Shield - Cleaning... </span>
-                                                                <span className={`${styles.bactriApp} ${styles.scrn}`}>View App Screen</span>
+                                                                <span onMouseOver={bacteria} className={`${styles.bactriApp} ${styles.scrn}`}>View App Screen</span>
                                                             </li>
                                                             <div className={styles.view}>
                                                                 <Link href="#" className={styles.btnView}>View all Works</Link>
@@ -328,7 +406,7 @@ const Header = () => {
                                                                     </Link>
                                                                 </span>
                                                                 <span className={styles.realDummy}>Developed A Music Streaming... </span>
-                                                                <span className={`${styles.soundApp} ${styles.scrn}`}>View App Screen</span>
+                                                                <span onMouseOver={soundapp} className={`${styles.soundApp} ${styles.scrn}`}>View App Screen</span>
                                                             </li>
                                                             <li className={`${styles.megaList} ${styles.megaList2}`}>
                                                                 <span className={styles.workTitle}>
@@ -337,7 +415,7 @@ const Header = () => {
                                                                     </Link>
                                                                 </span>
                                                                 <span className={styles.realDummy}>AS Medicare - A Pharmacy... </span>
-                                                                <span className={`${styles.pharmaApp} ${styles.scrn}`}>View App Screen</span>
+                                                                <span onMouseOver={healthapp} className={`${styles.pharmaApp} ${styles.scrn}`}>View App Screen</span>
                                                             </li>
                                                             <li className={`${styles.megaList} ${styles.megaList2}`}>
 
@@ -347,7 +425,7 @@ const Header = () => {
                                                                     </Link>
                                                                 </span>
                                                                 <span className={styles.realDummy}>EZ Ride is a two-sided market... </span>
-                                                                <span className={`${styles.riderApp} ${styles.scrn}`}>View App Screen</span>
+                                                                <span onMouseOver={riderapp} className={`${styles.riderApp} ${styles.scrn}`}>View App Screen</span>
                                                             </li>
                                                         </ul>
                                                     </div>
@@ -363,76 +441,75 @@ const Header = () => {
                                                                     </Link>
                                                                 </span>
                                                                 <span className={styles.realDummy}>Food Delivery Services That... </span>
-                                                                <span className={`${styles.foodApp} ${styles.scrn}`}>View App Screen</span>
+                                                                <span onMouseOver={foodapp} className={`${styles.foodApp} ${styles.scrn}`}>View App Screen</span>
                                                             </li>
                                                         </ul>
                                                     </div>
                                                 </Col>
                                                 <Col xl={3} lg={12} className={styles.leftborder}>
-                                                    <div className={`${styles.travelDev} ${styles.imgLeft}`}>
-                                                        <Image alt="bitswits"      className='img-fluid mt-4'
+                                                    <div className={travelappshow ? 'd-block' : 'd-none'}>
+                                                        <Image alt="bitswits" className='img-fluid mt-4'
                                                             src={media1}
-                                                            alt='bitswits'
+
                                                             loading="lazy"
                                                         />
                                                         <Link href="#" className={styles.readMore}>
                                                             <p className="text-center">Read More</p>
                                                         </Link>
                                                     </div>
-                                                    <div className={`${styles.estatDev} ${styles.imgLeft}`}>
-                                                        <Image alt="bitswits"      className='img-fluid mt-4'
+                                                    <div className={estatappshow ? 'd-block' : 'd-none'}>
+                                                        <Image alt="bitswits" className='img-fluid mt-4'
                                                             src={media2}
-                                                            alt='bitswits'
                                                             loading="lazy"
                                                         />
                                                         <Link href="#" className={styles.readMore}>
                                                             <p className="text-center">Read More</p>
                                                         </Link>
                                                     </div>
-                                                    <div className={`${styles.bacteriaDev} ${styles.imgLeft}`}>
-                                                        <Image alt="bitswits"      className='img-fluid mt-4'
+                                                    <div className={bacteriashow ? 'd-block' : 'd-none'}>
+                                                        <Image alt="bitswits" className='img-fluid mt-4'
                                                             src={media3}
-                                                            alt='bitswits'
+
                                                             loading="lazy"
                                                         />
                                                         <Link href="#" className={styles.readMore}>
                                                             <p className="text-center">Read More</p>
                                                         </Link>
                                                     </div>
-                                                    <div className={`${styles.soundDev} ${styles.imgLeft}`}>
-                                                        <Image alt="bitswits"      className='img-fluid mt-4'
+                                                    <div className={soundappshow ? 'd-block' : 'd-none'}>
+                                                        <Image alt="bitswits" className='img-fluid mt-4'
                                                             src={media4}
-                                                            alt='bitswits'
+
                                                             loading="lazy"
                                                         />
                                                         <Link href="#" className={styles.readMore}>
                                                             <p className="text-center">Read More</p>
                                                         </Link>
                                                     </div>
-                                                    <div className={`${styles.pharmaDev} ${styles.imgLeft}`}>
-                                                        <Image alt="bitswits"      className='img-fluid mt-4'
+                                                    <div className={healthappshow ? 'd-block' : 'd-none'}>
+                                                        <Image alt="bitswits" className='img-fluid mt-4'
                                                             src={media5}
-                                                            alt='bitswits'
+
                                                             loading="lazy"
                                                         />
                                                         <Link href="#" className={styles.readMore}>
                                                             <p className="text-center">Read More</p>
                                                         </Link>
                                                     </div>
-                                                    <div className={`${styles.riderDev} ${styles.imgLeft}`}>
-                                                        <Image alt="bitswits"      className='img-fluid mt-4'
+                                                    <div className={riderappshow ? 'd-block' : 'd-none'}>
+                                                        <Image alt="bitswits" className='img-fluid mt-4'
                                                             src={media6}
-                                                            alt='bitswits'
+
                                                             loading="lazy"
                                                         />
                                                         <Link href="#" className={styles.readMore}>
                                                             <p className="text-center">Read More</p>
                                                         </Link>
                                                     </div>
-                                                    <div className={`${styles.foodDev} ${styles.imgLeft}`}>
-                                                        <Image alt="bitswits"      className='img-fluid mt-4'
+                                                    <div className={foodappshow ? 'd-block' : 'd-none'}>
+                                                        <Image alt="bitswits" className='img-fluid mt-4'
                                                             src={media7}
-                                                            alt='bitswits'
+
                                                             loading="lazy"
                                                         />
                                                         <Link href="#" className={styles.readMore}>
@@ -461,17 +538,17 @@ const Header = () => {
                                 Get a Call
                             </Link>
                             <Link href="tel:18335006007" className={styles.phoneBtn}>
-                                <Image alt="bitswits"   
+                                <Image alt="bitswits"
                                     src={call}
-                                    
+
                                     loading="lazy"
                                 />
                                 <span>(833) 500-6007</span>
                             </Link>
                             <Link href="#" className="support-btn">
-                                <Image alt="bitswits"   
+                                <Image alt="bitswits"
                                     src={user}
-                                    
+
                                     loading="lazy"
                                 />
                                 <span>Live Chat</span>
