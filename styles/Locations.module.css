@@ -1,5 +1,5 @@
 .locations {
-  background-color: #000;
+  background-color: #101010;
   position: relative;
 }
 
@@ -36,4 +36,20 @@
 
 .detail a:hover {
   color: var(--p-color);
+}
+
+.lctnslide .loctnDetls{
+    text-align: center;
+}
+
+/* =================Media Queries=================== */
+
+@media screen and (max-width:991px) {
+    .mapVideo{
+        display: none;
+    }
+
+    .lctnMain{
+        text-align: center;
+    }
 }
