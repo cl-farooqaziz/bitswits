@@ -62,6 +62,14 @@ button {
   border-left: 1px solid #ddd;
 }
 
+.border-btm {
+  border-bottom: 1px solid var(--dg-color);
+}
+
+.f-uppercase {
+  text-transform: uppercase;
+}
+
 /* scrollbar */
 
 /* width */
@@ -130,6 +138,9 @@ button {
 }
 .f-18 {
   font-size: 18px;
+}
+.f-28 {
+  font-size: 28px;
 }
 .f-30 {
   font-size: 30px;
@@ -269,28 +280,37 @@ button {
   position: relative;
 }
 
-
-.headimg .d-block img{
+.headimg .d-block img {
   transform-origin: top right;
-animation: .5s ease-in-out forwards growLeft;
+  animation: 0.5s ease-in-out forwards growLeft;
   margin: 0 auto;
   display: block;
 }
 
-@keyframes growLeft{
-0% {
-transform: scaleX(0);
-}
-80% {
-transform: scaleX(1.1);
-}
-100% {
-transform: scaleX(1);
-}
+@keyframes growLeft {
+  0% {
+    transform: scaleX(0);
+  }
+  80% {
+    transform: scaleX(1.1);
+  }
+  100% {
+    transform: scaleX(1);
+  }
 }
 
+.getmodalvideo .modal-body {
+  position: relative;
+  flex: 1 1 auto;
+  padding: unset;
+  background-color: #000000;
+}
+.getmodalvideo {
+  background-color: black;
+  z-index: 9999;
+}
 
-/* ==================================== */
+/* =================Media Queries=================== */
 
 @media screen and (max-width: 767px) {
   .f-60 {
