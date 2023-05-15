@@ -1,16 +1,39 @@
-.upside {
-    z-index: 99;
-    position: relative;
-}
-.mapVideo {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    width: 100%;
-}
 .locations {
-    position: relative;
-    
+  background-color: #000;
+  position: relative;
+}
+
+.mapVideo {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+}
+
+.mapVideo .map > video {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.upside {
+  z-index: 99;
+  position: relative;
+  padding: 100px 0;
+}
+
+.loctnDetls .heading {
+  border-top: 1px solid var(--dg-color);
+  border-bottom: 1px solid var(--dg-color);
+  padding: 5px 0 10px;
+}
+
+.detail {
+  padding: 12px 0;
+}
+
+.detail a:hover {
+  color: var(--p-color);
 }
