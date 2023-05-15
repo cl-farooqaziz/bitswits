@@ -36,8 +36,6 @@ html {
   overflow-x: hidden;
 }
 
-
-
 :focus-visible {
   outline: inherit;
 }
@@ -121,6 +119,9 @@ button {
 }
 .f-14 {
   font-size: 14px;
+}
+.f-15 {
+  font-size: 15px;
 }
 .f-16 {
   font-size: 16px;
@@ -212,17 +213,18 @@ button {
 }
 
 .imgspacetop {
-  padding-left: 5px!important;
-  padding-right: 5px!important;
+  padding-left: 5px !important;
+  padding-right: 5px !important;
 }
 .sector {
   align-items: center;
   justify-content: center;
 }
 
-/* ==================================== */
+/* ==================Changes================== */
 
-.testtimonials .slick-slider .slick-prev {
+.testtimonials .slick-slider .slick-prev,
+.bannerslider.slick-slider .slick-prev {
   display: none !important;
 }
 
@@ -231,7 +233,13 @@ button {
   right: 0;
 }
 
-.testtimonials .slick-slider .slick-next:before {
+.bannerslider.slick-slider .slick-next {
+  top: 235px;
+  right: 10px;
+}
+
+.testtimonials .slick-slider .slick-next:before,
+.bannerslider.slick-slider .slick-next:before {
   content: url(../public/images/icons/arrow.webp);
   opacity: 1;
 }
@@ -299,7 +307,18 @@ button {
 }
 .getmodalvideo {
   background-color: black;
-  z-index: 9999!important;
+  z-index: 9999 !important;
+}
+
+.touch .d-block {
+  padding-top: unset !important;
+  padding: 1.5em;
+}
+.touch {
+  box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0;
+}
+.touch div {
+  border: unset;
 }
 
 /* =================Media Queries=================== */

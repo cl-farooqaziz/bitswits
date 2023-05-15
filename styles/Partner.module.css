@@ -1,63 +1,64 @@
-.hearfelt{
-    padding-top: 80px;
-    padding-bottom: 80px;
-    position: relative;
+.hearfelt {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  position: relative;
 }
-
 
 .hearfelt:before {
-    content: '';
-    display: block;
-    background-image: url(../public/images/partner/shadow.webp);
-    background-repeat: no-repeat;
-    background-position: top center;
-    height: 35%;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-size: cover;
-    z-index: -1;
+  content: "";
+  display: block;
+  background-image: url(../public/images/partner/shadow.webp);
+  background-repeat: no-repeat;
+  background-position: top center;
+  height: 35%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-size: cover;
+  z-index: -1;
 }
-
 
 .hearfelt:after {
-    content: '';
-    display: block;
-    background-image: url(../public/images/partner/switch-line.webp);
-    background-position: top center;
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    width: 102px;
-    height: 991px;
-    margin: auto;
+  content: "";
+  display: block;
+  background-image: url(../public/images/partner/switch-line.webp);
+  background-position: top center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 102px;
+  height: 991px;
+  margin: auto;
 }
-.rightpadding{
-    padding-right: 60px;
+.rightpadding {
+  padding-right: 60px;
 }
-.leftpadding{
-    padding-left: 60px;
+.leftpadding {
+  padding-left: 60px;
 }
-.makes{
-    text-align: center;
-    padding-bottom: 200px;
+.makes {
+  text-align: center;
+  padding-bottom: 200px;
 }
-.arrowBtn img{
-    margin-left: 3%;
+.arrowBtn img {
+  margin-left: 3%;
 }
-.arrowBtn span{
-    letter-spacing: .8px;
-  
+.arrowBtn span {
+  letter-spacing: 0.8px;
+  transition: all 0.2s ease-in-out;
 }
 
-@media screen and (max-width: 1200px) { 
-    .hearfelt:after {
-        background-image: none;
-    }
-    .makes {
-        padding-bottom: 50px;
-    }
+.arrowBtn span:hover {
+  margin-right: 15px;
+}
 
+@media screen and (max-width: 1200px) {
+  .hearfelt:after {
+    background-image: none;
+  }
+  .makes {
+    padding-bottom: 50px;
+  }
 }

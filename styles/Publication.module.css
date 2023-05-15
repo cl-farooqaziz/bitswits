@@ -12,7 +12,7 @@
     filter: grayscale(1);
     opacity: .5;
 }
-.publicationimg img:hover{
+.publicationimg:hover img{
     filter: unset;
     opacity: unset;
 }

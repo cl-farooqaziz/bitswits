@@ -39,18 +39,12 @@ export default function Home() {
       img: servicesmobile,
       title: android,
       text: 'We take Android app development to the next level by following a comprehensive approach, from ideation to launch. Our experienced developers use the latest technologies to create customized and scalable Android apps that exceed client expectations.',
-
-
-
     },
 
     {
       img: servicesmobile2,
       title: web,
       text: 'We offer end-to-end web app development company. Our team of skilled web app developers utilizes the latest technologies to create scalable and secure web applications that cater to your business needs. Hire our web app developers today!',
-
-
-
     },
 
     {
@@ -112,9 +106,6 @@ export default function Home() {
 
       <Partner />
 
-
-
-
       <div className='bgimageserve'>
         <Container className='ourspacing'>
           <Row className='mb-5'>
@@ -149,7 +140,7 @@ export default function Home() {
 
       <Whatourclients />
 
-      <Videotestimonial/>
+      <Videotestimonial />
 
       <Consultation />
 

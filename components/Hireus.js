@@ -21,7 +21,7 @@ const Hireus = () => {
 
     let teamSlider = {
         centerMode: true,
-        centerPadding: '60px',
+        centerPadding: '80px',
         dots: false,
         arrows: false,
         autoplay: true,
@@ -77,67 +77,85 @@ const Hireus = () => {
                     <Col lg={12}>
                         <Slider {...teamSlider} className='mt-3'>
                             <div className={styles.slideBox}>
-                                <Image alt="bitswits"      className='img-fluid mx-auto'
+                                <Image alt="bitswits" className='img-fluid mx-auto'
                                     src={team1}
-                                   
+
                                 />
-                                <p className='f-14 f-500 f-montserrat black mb-0 mt-2'>Skilled Team</p>
+                                <p className='f-14 f-500 f-montserrat black mb-0 mt-2 f-uppercase'>
+                                    Skilled Team
+                                </p>
                             </div>
                             <div className={styles.slideBox}>
-                                <Image alt="bitswits"      className='img-fluid mx-auto'
+                                <Image alt="bitswits" className='img-fluid mx-auto'
                                     src={team2}
-                                    
+
                                 />
-                                <p className='f-14 f-500 f-montserrat black mb-0 mt-2'>Guaranteed <br /> Innovation</p>
+                                <p className='f-14 f-500 f-montserrat black mb-0 mt-2 f-uppercase'>
+                                    Guaranteed <br /> Innovation
+                                </p>
                             </div>
                             <div className={styles.slideBox}>
-                                <Image alt="bitswits"      className='img-fluid mx-auto'
+                                <Image alt="bitswits" className='img-fluid mx-auto'
                                     src={team3}
-                                    
+
                                 />
-                                <p className='f-14 f-500 f-montserrat black mb-0 mt-2'>Result-Driven <br /> Approach</p>
+                                <p className='f-14 f-500 f-montserrat black mb-0 mt-2 f-uppercase'>
+                                    Result-Driven <br /> Approach
+                                </p>
                             </div>
                             <div className={styles.slideBox}>
-                                <Image alt="bitswits"      className='img-fluid mx-auto'
+                                <Image alt="bitswits" className='img-fluid mx-auto'
                                     src={team4}
-                               
+
                                 />
-                                <p className='f-14 f-500 f-montserrat black mb-0 mt-2'>Quality & Security</p>
+                                <p className='f-14 f-500 f-montserrat black mb-0 mt-2 f-uppercase'>
+                                    Quality & Security
+                                </p>
                             </div>
                             <div className={styles.slideBox}>
-                                <Image alt="bitswits"      className='img-fluid mx-auto'
+                                <Image alt="bitswits" className='img-fluid mx-auto'
                                     src={team5}
-                             
+
                                 />
-                                <p className='f-14 f-500 f-montserrat black mb-0 mt-2'>Increase ROI</p>
+                                <p className='f-14 f-500 f-montserrat black mb-0 mt-2 f-uppercase'>
+                                    Increase ROI
+                                </p>
                             </div>
                             <div className={styles.slideBox}>
-                                <Image alt="bitswits"      className='img-fluid mx-auto'
+                                <Image alt="bitswits" className='img-fluid mx-auto'
                                     src={team6}
-                              
+
                                 />
-                                <p className='f-14 f-500 f-montserrat black mb-0 mt-2'>Non-Disclosure <br /> Agreement</p>
+                                <p className='f-14 f-500 f-montserrat black mb-0 mt-2 f-uppercase'>
+                                    Non-Disclosure <br /> Agreement
+                                </p>
                             </div>
                             <div className={styles.slideBox}>
-                                <Image alt="bitswits"      className='img-fluid mx-auto'
+                                <Image alt="bitswits" className='img-fluid mx-auto'
                                     src={team7}
-                                  
+
                                 />
-                                <p className='f-14 f-500 f-montserrat black mb-0 mt-2'>In-Depth Domain <br /> Knowledge</p>
+                                <p className='f-14 f-500 f-montserrat black mb-0 mt-2 f-uppercase'>
+                                    In-Depth Domain <br /> Knowledge
+                                </p>
                             </div>
                             <div className={styles.slideBox}>
-                                <Image alt="bitswits"      className='img-fluid mx-auto'
+                                <Image alt="bitswits" className='img-fluid mx-auto'
                                     src={team8}
-                                  
+
                                 />
-                                <p className='f-14 f-500 f-montserrat black mb-0 mt-2'>Integrity <br /> Transparency</p>
+                                <p className='f-14 f-500 f-montserrat black mb-0 mt-2 f-uppercase'>
+                                    Integrity <br /> Transparency
+                                </p>
                             </div>
                             <div className={styles.slideBox}>
-                                <Image alt="bitswits"      className='img-fluid mx-auto'
+                                <Image alt="bitswits" className='img-fluid mx-auto'
                                     src={team9}
-                                   
+
                                 />
-                                <p className='f-14 f-500 f-montserrat black mb-0 mt-2'>Quick and Easy  <br /> Communication</p>
+                                <p className='f-14 f-500 f-montserrat black mb-0 mt-2 f-uppercase'>
+                                    Quick and Easy  <br /> Communication
+                                </p>
                             </div>
                         </Slider>
                     </Col>
