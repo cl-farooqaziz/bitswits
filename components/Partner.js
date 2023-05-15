@@ -26,10 +26,10 @@ const Partner = () => {
                                 </p>
                                 <Link href="#" className={styles.arrowBtn}>
                                     <span className="orange f-poppins f-600 f-capitalize">Explore more</span>
-                                    <Image src={right} width="35" height="15" alt="bitswits" loading="lazy" />
+                                    <Image alt="bitswits"      src={right} width="35" height="15"  loading="lazy" />
                                 </Link>
                                 <div className="card-img left mt-5">
-                                    <Image src={servicecard} className="img-fluid" width="486" height="528" alt="bitswits" loading="lazy" />
+                                    <Image alt="bitswits"      src={servicecard} className="img-fluid" width="486" height="528"  loading="lazy" />
                                 </div>
                             </div>
                         </Col>
@@ -42,10 +42,10 @@ const Partner = () => {
                                 </p>
                                 <Link href="#" className={styles.arrowBtn}>
                                     <span className="orange f-poppins f-600 f-capitalize">Explore more</span>
-                                    <Image src={right} width="35" height="15" alt="bitswits" loading="lazy" />
+                                    <Image alt="bitswits"      src={right} width="35" height="15"  loading="lazy" />
                                 </Link>
                                 <div className="card-img right mt-5">
-                                    <Image src={laptop} className="img-fluid" width="805" height="658" alt="bitswits" loading="lazy" />
+                                    <Image alt="bitswits"      src={laptop} className="img-fluid" width="805" height="658"  loading="lazy" />
                                 </div>
                             </div>
                         </Col>

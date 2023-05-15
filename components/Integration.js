@@ -16,10 +16,10 @@ const Integration = () => {
                         <p className="white f-poppins f-14 f-400 t-justify mt-3 mb-3 pe-5">
                             Our team is the embodiment of excellence when it comes to API integration and custom programming, solidifying our reputation as an industry leader. We're proud of what we can achieve with these core competencies! So, Don't Navigate the Intricacies of Optimization Alone! - Let us be your trusted IT partner for all your needs!
                         </p>
-                        <Image src={rating} className='img-fluid' />
+                        <Image alt="bitswits"      src={rating} className='img-fluid' />
                         <Link href='#' className={styles.arrowBtn1}>
                                     <span>Get Free <br /> Consultation </span>
-                                    <Image src={right} width="50" height="21" alt="bitswits" loading="lazy" />
+                                    <Image alt="bitswits"      src={right} width="50" height="21"  loading="lazy" />
                                 </Link>
                     </Col>
                 </Row>

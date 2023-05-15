@@ -98,7 +98,7 @@ export default function Home() {
         <link rel="canonical" href="https://bitswits.co" />
         <meta name="msvalidate.01" content="7BBFFA763CEB48CAC0828E22D44DD12B" />
         <meta name="google-site-verification" content="jg7nSxeneqpzOKNtVKXDQRVGjThDC6_7zGXI8wAXqkY" />
-        <link rel="icon" href="../favicon.webp" />
+        <link rel="icon" href="images/icons/favicon.webp" />
       </Head>
 
 

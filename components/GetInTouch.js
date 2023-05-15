@@ -19,23 +19,23 @@ const GetInTouch = () => {
                                 <form className={styles.form}>
                                     <div className="input-group">
                                         <input type="text" className="form-control" id="name" required />
-                                        <label for="name" class={`${styles.label} form-label`}>Full Name</label>
+                                        <label htmlFor="name" className={`${styles.label} form-label`}>Full Name</label>
                                     </div>
                                     <div className="input-group">
                                         <input type="email" className="form-control" id="email" required />
-                                        <label for="email" class={`${styles.label} form-label`}>Email Address</label>
+                                        <label htmlFor="email" className={`${styles.label} form-label`}>Email Address</label>
                                     </div>
                                     <div className="input-group">
                                         <input type="text" className="form-control" id="company" required />
-                                        <label for="company" class="form-label">Company</label>
+                                        <label htmlFor="company" className="form-label">Company</label>
                                     </div>
                                     <div className="input-group">
                                         <input type="tel" className="form-control" id="phone" required />
-                                        <label for="phone" class="form-label">Phone</label>
+                                        <label htmlFor="phone" className="form-label">Phone</label>
                                     </div>
                                     <div className="input-group">
                                         <textarea className="form-control" id="message" required></textarea>
-                                        <label for="message" class="form-label">Message</label>
+                                        <label htmlFor="message" className="form-label">Message</label>
                                     </div>
                                     <div>
                                         <button className={`${styles.gitBtn} mt-5`} type="submit">

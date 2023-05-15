@@ -82,7 +82,7 @@ const Whatourclients = () => {
 
               <div className={styles.clientData}>
                 <div>
-                  <Image loading="lazy" className='img-fluid'
+                  <Image alt="bitswits"      loading="lazy" className='img-fluid'
                     src={avtar1}
                     alt='bitswits'
                   />
@@ -103,7 +103,7 @@ const Whatourclients = () => {
 
               <div className={styles.clientData}>
                 <div>
-                  <Image loading="lazy" className='img-fluid'
+                  <Image alt="bitswits"      loading="lazy" className='img-fluid'
                     src={avtar2}
                     alt='bitswits'
                   />
@@ -128,7 +128,7 @@ const Whatourclients = () => {
 
               <div className={styles.clientData}>
                 <div>
-                  <Image loading="lazy" className='img-fluid'
+                  <Image alt="bitswits"      loading="lazy" className='img-fluid'
                     src={avtar3}
                     alt='bitswits'
                   />

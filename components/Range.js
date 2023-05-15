@@ -104,7 +104,7 @@ const Range = () => {
           {bloglisting.map((item, i) =>
             <Col md={2} key={i} className='imgspacetop'>
               <div className={styles.publicationimg}>
-                <Image loading="lazy" src={item.image} alt="bitswits" className='img-fluid' />
+                <Image alt="bitswits"      loading="lazy" src={item.image}  className='img-fluid' />
                 <h4 className="f-montserrat f-14 f-500 white mt-2">{item.title}</h4>
               </div>
             </Col>

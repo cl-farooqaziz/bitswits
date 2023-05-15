@@ -37,7 +37,7 @@ function Homebanner() {
 
                                 <Link href='#' className={styles.arrowBtn}>
                                     <span>Get Free <br /> Consultation </span>
-                                    <Image src={right} width="50" height="21" alt="bitswits" loading="lazy" />
+                                    <Image alt="bitswits"      src={right} width="50" height="21"  loading="lazy" />
                                 </Link>
 
 
@@ -52,7 +52,7 @@ function Homebanner() {
                                 <h3 className={styles.ratingNumber}>4.9</h3>
 
                                 <div className="stars">
-                                    <Image src={rating} width="271" height="31" className="Image-fluid" loading="lazy" alt="bitswits" />
+                                    <Image alt="bitswits"      src={rating} width="271" height="31" className="Image-fluid" loading="lazy"  />
                                 </div>
 
                             </div>

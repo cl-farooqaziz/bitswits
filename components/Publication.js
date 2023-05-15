@@ -88,7 +88,7 @@ const Publication = () => {
           {bloglisting.map((item, i) =>
             <Col md={2} key={i} className='imgspacetop'>
               <div className={styles.publicationimg}>
-                <Image loading="lazy" src={item.image} alt="bitswits" className='img-fluid' />
+                <Image alt="bitswits"      loading="lazy" src={item.image}  className='img-fluid' />
               </div>
             </Col>
           )}

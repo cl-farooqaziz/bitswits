@@ -11,7 +11,7 @@ const Servicesmobile = (props) => {
             <div className={styles.serveimg}>
 
 
-                <Image loading="lazy" alt="bitswits" src={props.img1} className='img-fluid' />
+                <Image alt="bitswits"      loading="lazy"  src={props.img1} className='img-fluid' />
 
                 <h4>{props.title}</h4>
 

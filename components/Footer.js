@@ -149,7 +149,7 @@ const Footer = () => {
                                 <ul className={`${styles.contacts} ${styles.myLinks} p-0`}>
                                     <li className="mb-2">
                                         <Link href="mailto:info@bitswits.co">
-                                            <Image className='img-fluid'
+                                            <Image alt="bitswits"      className='img-fluid'
                                                 src={mail}
                                                 alt='bitswits'
                                                 loading="lazy"
@@ -159,7 +159,7 @@ const Footer = () => {
                                     </li>
                                     <li className="fw-bold">
                                         <Link href="tel:13123795987">
-                                            <Image className='img-fluid'
+                                            <Image alt="bitswits"      className='img-fluid'
                                                 src={call}
                                                 alt='bitswits'
                                                 loading="lazy"
@@ -169,7 +169,7 @@ const Footer = () => {
                                     </li>
                                     <li className="fw-bold">
                                         <Link href="tel:18335006007">
-                                            <Image className='img-fluid'
+                                            <Image alt="bitswits"      className='img-fluid'
                                                 src={call}
                                                 alt='bitswits'
                                                 loading="lazy"
@@ -189,7 +189,7 @@ const Footer = () => {
                                 <ul className={styles.socials}>
                                     <li>
                                         <Link href="https://www.facebook.com/officialbitswits" target="_blank" rel="noopener noreferrer">
-                                            <Image className='img-fluid'
+                                            <Image alt="bitswits"      className='img-fluid'
                                                 src={fb}
                                                 alt='bitswits'
                                                 loading="lazy"
@@ -198,7 +198,7 @@ const Footer = () => {
                                     </li>
                                     <li>
                                         <Link href="https://www.instagram.com/officialbitswits/" target="_blank" rel="noopener noreferrer">
-                                            <Image className='img-fluid'
+                                            <Image alt="bitswits"      className='img-fluid'
                                                 src={inta}
                                                 alt='bitswits'
                                                 loading="lazy"
@@ -207,7 +207,7 @@ const Footer = () => {
                                     </li>
                                     <li>
                                         <Link href="https://twitter.com/BitsWits_/" target="_blank" rel="noopener noreferrer">
-                                            <Image className='img-fluid'
+                                            <Image alt="bitswits"      className='img-fluid'
                                                 src={tweet}
                                                 alt='bitswits'
                                                 loading="lazy"
@@ -216,7 +216,7 @@ const Footer = () => {
                                     </li>
                                     <li>
                                         <Link href="https://www.linkedin.com/company/officialbitswits" target="_blank" rel="noopener noreferrer">
-                                            <Image className='img-fluid'
+                                            <Image alt="bitswits"      className='img-fluid'
                                                 src={linkedin}
                                                 alt='bitswits'
                                                 loading="lazy"
@@ -225,7 +225,7 @@ const Footer = () => {
                                     </li>
                                     <li>
                                         <Link href="https://www.youtube.com/@officialbitswits" target="_blank" rel="noopener noreferrer">
-                                            <Image className='img-fluid'
+                                            <Image alt="bitswits"      className='img-fluid'
                                                 src={youtube}
                                                 alt='bitswits'
                                                 loading="lazy"

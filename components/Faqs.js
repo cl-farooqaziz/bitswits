@@ -30,12 +30,12 @@ const Faqs = () => {
                                         <p>
                                             Mobile application development creates software applications that run on mobile devices and other connected devices, such as wearables, automotive systems, cameras, and more. It requires skill sets in design, development, testing, deployment, and maintenance to create innovative user experiences across multiple platforms. With that being said, businesses hire mobile app developers to stay ahead of the competition and deliver market-leading products to their customers.
                                         </p>
-                                        <div class="mt-2">
+                                        <div className="mt-2">
                                             <Link href="#">
                                                 Let's Start
-                                                <Image className='img-fluid'
+                                                <Image alt="bitswits"      className='img-fluid'
                                                     src={arrow}
-                                                    alt="bitswits"
+                                                    
                                                     loading="lazy"
                                                 />
                                             </Link>
@@ -54,12 +54,12 @@ const Faqs = () => {
                                             solutions, whether Hybrid or Native mobile application development is required. Our developers
                                             always come up with creative and innovative app ideas that are best in your interest.
                                         </p>
-                                        <div class="mt-2">
+                                        <div className="mt-2">
                                             <Link href="#">
                                                 Let's Start
-                                                <Image className='img-fluid'
+                                                <Image alt="bitswits"      className='img-fluid'
                                                     src={arrow}
-                                                    alt="bitswits"
+                                                    
                                                     loading="lazy"
                                                 />
                                             </Link>
@@ -82,12 +82,12 @@ const Faqs = () => {
                                             excellence, and innovative mobile app development solutions. We enjoy the top spot in the
                                             application development industry with affordable packages and professional services.
                                         </p>
-                                        <div class="mt-2">
+                                        <div className="mt-2">
                                             <Link href="#">
                                                 Let's Start
-                                                <Image className='img-fluid'
+                                                <Image alt="bitswits"      className='img-fluid'
                                                     src={arrow}
-                                                    alt="bitswits"
+                                                    
                                                     loading="lazy"
                                                 />
                                             </Link>
@@ -105,12 +105,12 @@ const Faqs = () => {
                                             Yes, BitsWits offers 24/7 incredible customer support, even post-mobile apps development USA. We
                                             do not let our customers hang in the middle with any query that may bring trouble to them.
                                         </p>
-                                        <div class="mt-2">
+                                        <div className="mt-2">
                                             <Link href="#">
                                                 Let's Start
-                                                <Image className='img-fluid'
+                                                <Image alt="bitswits"      className='img-fluid'
                                                     src={arrow}
-                                                    alt="bitswits"
+                                                    
                                                     loading="lazy"
                                                 />
                                             </Link>
@@ -130,12 +130,12 @@ const Faqs = () => {
                                             open communication so that the solution to your query is answered adequately to provide you with
                                             the utmost satisfaction.
                                         </p>
-                                        <div class="mt-2">
+                                        <div className="mt-2">
                                             <Link href="#">
                                                 Let's Start
-                                                <Image className='img-fluid'
+                                                <Image alt="bitswits"      className='img-fluid'
                                                     src={arrow}
-                                                    alt="bitswits"
+                                                    
                                                     loading="lazy"
                                                 />
                                             </Link>
@@ -156,12 +156,12 @@ const Faqs = () => {
                                             application development company dedicated to creating apps that cater to each client's unique
                                             needs.
                                         </p>
-                                        <div class="mt-2">
+                                        <div className="mt-2">
                                             <Link href="#">
                                                 Let's Start
-                                                <Image className='img-fluid'
+                                                <Image alt="bitswits"      className='img-fluid'
                                                     src={arrow}
-                                                    alt="bitswits"
+                                                    
                                                     loading="lazy"
                                                 />
                                             </Link>

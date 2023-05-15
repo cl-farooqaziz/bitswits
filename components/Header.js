@@ -31,7 +31,7 @@ const Header = () => {
                     <nav className={styles.headerNav}>
                         <div className={styles.navLogo}>
                             <Link href="/" className="d-block">
-                                <Image className='img-fluid'
+                                <Image alt="bitswits"      className='img-fluid'
                                     src={logo}
                                     alt='bitswits'
                                 />
@@ -47,7 +47,7 @@ const Header = () => {
                                 <li className={`${styles.mainLi} ${styles.megaLi}`}>
                                     <Link href="#" className={styles.mainA}>
                                         <span>Services</span>
-                                        <Image className='img-fluid'
+                                        <Image alt="bitswits"      className='img-fluid'
                                             src={arrow}
                                             alt='bitswits'
                                             loading="lazy"
@@ -215,9 +215,9 @@ const Header = () => {
                                                         <Col xl={3}>
                                                             <div className={`${styles.conRow} d-flex align-items-center`}>
                                                                 <div className={styles.new}>
-                                                                    <Image
+                                                                    <Image alt="bitswits"   
                                                                         src={mIcon}
-                                                                        alt="bitswits"
+                                                                        
                                                                     />
                                                                 </div>
                                                                 <div className={styles.contains}>
@@ -232,9 +232,9 @@ const Header = () => {
                                                         <Col xl={3}>
                                                             <div className={`${styles.conRow} d-flex align-items-center`}>
                                                                 <div className={styles.new}>
-                                                                    <Image
+                                                                    <Image alt="bitswits"   
                                                                         src={gIcon}
-                                                                        alt="bitswits"
+                                                                        
                                                                     />
                                                                 </div>
                                                                 <div className={styles.contains}>
@@ -249,9 +249,9 @@ const Header = () => {
                                                         <Col xl={3}>
                                                             <div className="d-flex align-items-center">
                                                                 <div className={styles.new}>
-                                                                    <Image
+                                                                    <Image alt="bitswits"   
                                                                         src={dicon}
-                                                                        alt="bitswits"
+                                                                        
                                                                     />
                                                                 </div>
                                                                 <div className={`${styles.contains} 
@@ -273,7 +273,7 @@ const Header = () => {
                                 <li className={`${styles.mainLi} ${styles.megaLi}`}>
                                     <Link href="#" className={styles.mainA}>
                                         <span>Our Work</span>
-                                        <Image className='img-fluid'
+                                        <Image alt="bitswits"      className='img-fluid'
                                             src={arrow}
                                             alt='bitswits'
                                             loading="lazy"
@@ -370,7 +370,7 @@ const Header = () => {
                                                 </Col>
                                                 <Col xl={3} lg={12} className={styles.leftborder}>
                                                     <div className={`${styles.travelDev} ${styles.imgLeft}`}>
-                                                        <Image className='img-fluid mt-4'
+                                                        <Image alt="bitswits"      className='img-fluid mt-4'
                                                             src={media1}
                                                             alt='bitswits'
                                                             loading="lazy"
@@ -380,7 +380,7 @@ const Header = () => {
                                                         </Link>
                                                     </div>
                                                     <div className={`${styles.estatDev} ${styles.imgLeft}`}>
-                                                        <Image className='img-fluid mt-4'
+                                                        <Image alt="bitswits"      className='img-fluid mt-4'
                                                             src={media2}
                                                             alt='bitswits'
                                                             loading="lazy"
@@ -390,7 +390,7 @@ const Header = () => {
                                                         </Link>
                                                     </div>
                                                     <div className={`${styles.bacteriaDev} ${styles.imgLeft}`}>
-                                                        <Image className='img-fluid mt-4'
+                                                        <Image alt="bitswits"      className='img-fluid mt-4'
                                                             src={media3}
                                                             alt='bitswits'
                                                             loading="lazy"
@@ -400,7 +400,7 @@ const Header = () => {
                                                         </Link>
                                                     </div>
                                                     <div className={`${styles.soundDev} ${styles.imgLeft}`}>
-                                                        <Image className='img-fluid mt-4'
+                                                        <Image alt="bitswits"      className='img-fluid mt-4'
                                                             src={media4}
                                                             alt='bitswits'
                                                             loading="lazy"
@@ -410,7 +410,7 @@ const Header = () => {
                                                         </Link>
                                                     </div>
                                                     <div className={`${styles.pharmaDev} ${styles.imgLeft}`}>
-                                                        <Image className='img-fluid mt-4'
+                                                        <Image alt="bitswits"      className='img-fluid mt-4'
                                                             src={media5}
                                                             alt='bitswits'
                                                             loading="lazy"
@@ -420,7 +420,7 @@ const Header = () => {
                                                         </Link>
                                                     </div>
                                                     <div className={`${styles.riderDev} ${styles.imgLeft}`}>
-                                                        <Image className='img-fluid mt-4'
+                                                        <Image alt="bitswits"      className='img-fluid mt-4'
                                                             src={media6}
                                                             alt='bitswits'
                                                             loading="lazy"
@@ -430,7 +430,7 @@ const Header = () => {
                                                         </Link>
                                                     </div>
                                                     <div className={`${styles.foodDev} ${styles.imgLeft}`}>
-                                                        <Image className='img-fluid mt-4'
+                                                        <Image alt="bitswits"      className='img-fluid mt-4'
                                                             src={media7}
                                                             alt='bitswits'
                                                             loading="lazy"
@@ -461,17 +461,17 @@ const Header = () => {
                                 Get a Call
                             </Link>
                             <Link href="tel:18335006007" className={styles.phoneBtn}>
-                                <Image
+                                <Image alt="bitswits"   
                                     src={call}
-                                    alt="bitswits"
+                                    
                                     loading="lazy"
                                 />
                                 <span>(833) 500-6007</span>
                             </Link>
                             <Link href="#" className="support-btn">
-                                <Image
+                                <Image alt="bitswits"   
                                     src={user}
-                                    alt="bitswits"
+                                    
                                     loading="lazy"
                                 />
                                 <span>Live Chat</span>
