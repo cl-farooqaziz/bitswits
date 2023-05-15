@@ -10,8 +10,7 @@ const Servicesmobile = (props) => {
         <Col md={4}>
             <div className={styles.serveimg}>
 
-
-                <Image alt="bitswits"      loading="lazy"  src={props.img1} className='img-fluid' />
+                <Image alt="bitswits" loading="lazy" src={props.img1} className='img-fluid' />
 
                 <h4>{props.title}</h4>
 
@@ -20,7 +19,6 @@ const Servicesmobile = (props) => {
                     : ''}
 
                 <Link href="#" className={styles.more}> Learn More</Link>
-
 
             </div>
         </Col>

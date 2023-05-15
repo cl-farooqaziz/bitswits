@@ -20,7 +20,7 @@ const Endorsements = () => {
 
     let bannerslider = {
         dots: false,
-        arrows: false,
+        arrows: true,
         autoplay: true,
         infinite: true,
         speed: 500,
@@ -49,7 +49,7 @@ const Endorsements = () => {
     };
 
 
-    
+
     return (
         <>
             <section className={`${styles.endorsements} endor`}>
@@ -72,12 +72,9 @@ const Endorsements = () => {
                                 </p>
 
 
-
-
-
                                 <Link href='#' className={styles.arrowBtn}>
-                                <span> VIEW REVIEWS </span> 
-                                    <Image alt="bitswits"      src={right} width="50" height="21"  loading="lazy" />
+                                    <span> VIEW REVIEWS </span>
+                                    <Image alt="bitswits" src={right} width="50" height="21" loading="lazy" />
                                 </Link>
 
 
@@ -85,49 +82,49 @@ const Endorsements = () => {
 
                         </Col>
                         <Col xl={7}>
-                          
-                        <div className={styles.homebannerlogo}>
-                                <Slider {...bannerslider}>
+
+                            <div className={styles.homebannerlogo}>
+                                <Slider {...bannerslider} className='bannerslider'>
                                     <div>
-                                        <Image alt="bitswits"      loading="lazy" className='img-fluid'
+                                        <Image alt="bitswits" loading="lazy" className='img-fluid'
                                             src={banslider1}
-                                      
+
                                         />
                                     </div>
                                     <div>
-                                        <Image alt="bitswits"      loading="lazy" className='img-fluid'
+                                        <Image alt="bitswits" loading="lazy" className='img-fluid'
                                             src={banslider2}
-                                           
+
                                         />
                                     </div>
                                     <div>
-                                        <Image alt="bitswits"      loading="lazy" className='img-fluid'
+                                        <Image alt="bitswits" loading="lazy" className='img-fluid'
                                             src={banslider3}
-                                            
+
                                         />
                                     </div>
                                     <div>
-                                        <Image alt="bitswits"      loading="lazy" className='img-fluid'
+                                        <Image alt="bitswits" loading="lazy" className='img-fluid'
                                             src={banslider4}
-                                          
+
                                         />
                                     </div>
                                     <div>
-                                        <Image alt="bitswits"      loading="lazy" className='img-fluid'
+                                        <Image alt="bitswits" loading="lazy" className='img-fluid'
                                             src={banslider5}
-                                           
+
                                         />
                                     </div>
                                     <div>
-                                        <Image alt="bitswits"      loading="lazy" className='img-fluid'
+                                        <Image alt="bitswits" loading="lazy" className='img-fluid'
                                             src={banslider6}
-                                            
+
                                         />
                                     </div>
                                     <div>
-                                        <Image alt="bitswits"      loading="lazy" className='img-fluid'
+                                        <Image alt="bitswits" loading="lazy" className='img-fluid'
                                             src={banslider7}
-                                           
+
                                         />
                                     </div>
                                 </Slider>

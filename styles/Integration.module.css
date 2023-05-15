@@ -27,16 +27,16 @@
   color: var(--p-color);
 }
 
-.arrowBtn span,
-.arrowBtn1 span {
-  transition: all .3s ease-in-out;
-}
-
-.arrowBtn:hover span,
-.arrowBtn1:hover span {
-  margin-right: 15px;
-}
-
 .arrowBtn img {
   margin-left: 1%;
+}
+
+.arrowBtn span,
+.arrowBtn1 span {
+  transition: all 0.3s ease-in-out;
+}
+
+.arrowBtn span:hover,
+.arrowBtn1 span:hover {
+  margin-right: 15px;
 }

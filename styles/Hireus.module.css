@@ -41,11 +41,15 @@
 .team .slideBox {
   border: 1px solid #000;
   border-right: 0;
-  height: 140px;
+  height: 150px;
   width: 237px;
   display: flex !important;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
+}
+
+.team .slideBox p {
+  letter-spacing: 1px;
 }

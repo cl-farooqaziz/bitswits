@@ -1,24 +1,32 @@
-.endorsements{
-    padding: 60px 0;
+.endorsements {
+  padding: 60px 0;
 }
 .arrowBtn {
-    font-size: 20px;
-    font-weight: 800;
-    font-family: Montserrat;
-    text-transform: uppercase;
-    color: var(--p-color);
-    display: flex;
-    align-items: center;
-    text-align: left;
-    margin-top: 3.5%;
+  font-size: 20px;
+  font-weight: 800;
+  font-family: Montserrat;
+  text-transform: uppercase;
+  color: var(--p-color);
+  display: flex;
+  align-items: center;
+  text-align: left;
+  margin-top: 3.5%;
 }
-.arrowBtn:hover{
-    color: var(--p-color);
+.arrowBtn:hover {
+  color: var(--p-color);
 }
-.arrowBtn img{
-    margin-left: 2%;
+.arrowBtn img {
+  margin-left: 2%;
 }
-.align{
-    align-items: center;
-    justify-content: space-between;
+.align {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.arrowBtn span {
+  transition: all 0.2s ease-in-out;
+}
+
+.arrowBtn span:hover {
+  margin-right: 15px;
 }
