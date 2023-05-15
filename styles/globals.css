@@ -205,7 +205,7 @@ button {
 }
 
 .bgimageserve {
-  background-image: url(../public/images/servicesmobile/bottom-shade.webp);
+  background-image: url(../public/images/servicesmobile/bottomshade.webp);
   background-position: center bottom;
   background-size: contain;
   background-repeat: no-repeat;
