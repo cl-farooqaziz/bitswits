@@ -212,8 +212,8 @@ button {
 }
 
 .imgspacetop {
-  padding-left: 5px;
-  padding-right: 5px;
+  padding-left: 5px!important;
+  padding-right: 5px!important;
 }
 .sector {
   align-items: center;
@@ -299,7 +299,7 @@ button {
 }
 .getmodalvideo {
   background-color: black;
-  z-index: 9999;
+  z-index: 9999!important;
 }
 
 /* =================Media Queries=================== */
