@@ -3,11 +3,30 @@
   padding: 100px 0;
 }
 
+.plus{
+  font-size: 30px;
+}
+
 .faqs h3 {
   font-size: 17px;
   font-weight: 600;
   color: #000000;
   font-family: "Poppins", sans-serif;
+  text-align: left;
+  background: unset;
+  display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+.heading {
+  border: 1px solid #c5c5c5;
+  padding: 13px 20px ;
+  margin-top: 3%;
+  cursor: pointer;
+}
+.description{
+  margin-top: 1%;
 }
 
 .faqs p {
