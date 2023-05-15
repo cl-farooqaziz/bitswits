@@ -4,11 +4,24 @@ import styles from '../styles/Videotestimonial.module.css'
 import { Container, Row, Col } from 'react-bootstrap'
 import daniel from '../public/images/videotestimonials/daniel.webp'
 import isabella from '../public/images/videotestimonials/isabella.webp'
+import { useState } from 'react'
+import { Modal } from 'react-bootstrap'
 
 const Videotestimonial = () => {
+
+    const [show, setShow] = useState(false);
+    const [show1, setShow1] = useState(false);
+
+    function modal(e) { e.preventDefault(); setShow(true); }
+    function closemodal() { setShow(false); }
+
+    function modal1(e) { e.preventDefault(); setShow1(true); }
+    function closemodal1() { setShow1(false); }
+
+
     return (
 
-        <section className={styles.videotestimonial}>
+        <section className={`${styles.videotestimonial}`}>
             <Container>
                 <Row>
 
@@ -23,7 +36,7 @@ const Videotestimonial = () => {
                                     <p className="f-poppins f-14 white">Founder Capital Real Estate</p>
                                 </div>
                                 <div>
-                                    <a href="#" className={styles.playicon} ></a>
+                                    <a onClick={modal} href="#" className={styles.playicon} ></a>
                                 </div>
                             </div>
                         </div>
@@ -36,7 +49,7 @@ const Videotestimonial = () => {
                                     <p className="f-poppins f-14 white">CEO Secret Vault</p>
                                 </div>
                                 <div>
-                                    <a href="#" className={styles.playicon} ></a>
+                                    <a onClick={modal1} href="#" className={styles.playicon} ></a>
                                 </div>
                             </div>
                         </div>
@@ -49,7 +62,22 @@ const Videotestimonial = () => {
                 </Row>
             </Container>
 
+            <Modal centered size="xl" show={show}  onHide={closemodal} className='getmodalvideo'>
+                <Modal.Body>  <video controls autoPlay muted className={styles.bodyvideo} loop src="images/videotestimonials/daniel.mp4" type="video/mp4"></video> <span onClick={closemodal} className={styles.cross}>x</span> </Modal.Body>
+
+            </Modal>
+
+
+            <Modal centered size="xl" show={show1}  onHide={closemodal1} className='getmodalvideo'>
+                <Modal.Body>  <video controls autoPlay muted className={styles.bodyvideo} loop src="images/videotestimonials/leba.mp4" type="video/mp4"></video> <span onClick={closemodal1} className={styles.cross1}>x</span> </Modal.Body>
+
+            </Modal>
+
         </section>
+
+
+
+
     )
 }
 

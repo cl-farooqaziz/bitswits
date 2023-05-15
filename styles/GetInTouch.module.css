@@ -89,3 +89,7 @@
 .form textarea:valid + label {
   display: none;
 }
+.form input#email:valid + label
+ {
+  display: none;
+}

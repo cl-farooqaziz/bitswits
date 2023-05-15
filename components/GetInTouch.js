@@ -22,7 +22,7 @@ const GetInTouch = () => {
                                         <label htmlFor="name" className={`${styles.label} form-label`}>Full Name</label>
                                     </div>
                                     <div className="input-group">
-                                        <input type="email" className="form-control" id="email" required />
+                                        <input type="text" className="form-control" id="email" required />
                                         <label htmlFor="email" className={`${styles.label} form-label`}>Email Address</label>
                                     </div>
                                     <div className="input-group">

@@ -57,3 +57,43 @@
 .playicon{
     position: relative;
 }
+
+.bodyvideo{
+    width: 25%;
+    height: 30%;
+    display: block;
+    margin: auto;
+}
+
+.cross {
+    position: absolute;
+    top: 0px;
+    right: 10px;
+    background-color: #222;
+    color: #fff;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+     font-family: "Poppins", sans-serif;
+    cursor: pointer;
+    z-index: 9;
+}
+.cross1 {
+    position: absolute;
+    top: 0px;
+    right: 10px;
+    background-color: #222;
+    color: #fff;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+     font-family: "Poppins", sans-serif;
+    cursor: pointer;
+    z-index: 9;
+}
