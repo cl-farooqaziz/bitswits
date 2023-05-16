@@ -338,7 +338,23 @@ button {
 .touch .d-block {
   padding-top: unset !important;
   padding: 1.5em;
+  animation: 0.7s ease-in-out forwards growDown;
+  transform-origin: top;
 }
+
+@keyframes growDown {
+  0% {
+    transform: scaleY(0);
+  }
+  80% {
+    transform: scaleY(1.1);
+  }
+  100% {
+    transform: scaleY(1);
+  }
+}
+
+
 .touch {
   box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0;
 }

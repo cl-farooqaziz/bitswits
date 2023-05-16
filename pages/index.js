@@ -95,15 +95,28 @@ export default function Home() {
         <meta name="msvalidate.01" content="7BBFFA763CEB48CAC0828E22D44DD12B" />
         <meta name="google-site-verification" content="jg7nSxeneqpzOKNtVKXDQRVGjThDC6_7zGXI8wAXqkY" />
         <link rel="icon" href="images/icons/favicon.webp" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha512-H9jrZiiopUdsLpg94A333EfumgUBpO9MdbxStdeITo+KEIMaNfHNvwyjjDJb+ERPaRS6DpyRlKbvPUasNItRyw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-        {/* ===== fancybox ===== */}
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha512-uURl+ZXMBrF4AwGaWmEetzrd+J5/8NRkWAvJx5sbPSSuOb0bZLqf+tOzniObO00BjHa/dD7gub9oCGMLPQHtQA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
         {/* ===== jquery ===== */}
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"/>
+        {/* ===== fancybox ===== */}
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" />
+     
+        
+
+        
+
+
+        
       </Head>
 
 
-      <Homebanner />
+      <Homebanner
+      subtitle = 'Elevate Your Mobile App Experience With'
+      title = 'Top Mobile App  Development Company'
+      text = ' At BitsWits, we are dedicated to revolutionizing the mobile technology industry as the top mobile app development company. We strive to unlock the industry`s full potential by offering innovative and customized solutions for both Android and iOS platforms.'
+      text2 = ' Let us help you bring your vision to life and take your business to the next level with our industry-leading mobile app development solutions.'
+      />
 
       <Endorsements />
 
