@@ -29,7 +29,7 @@ const Videotestimonial = () => {
 
 
                         <div className={styles.estate}>
-                            <Image src={daniel} className='img-fluid' />
+                            <Image alt="bitswits" loading="lazy" src={daniel} className='img-fluid' />
                             <div className={styles.cardtxt}>
                                 <div>
                                     <h6 className="f-16 f-playfair white">Daniel Gonzalez</h6>
@@ -43,7 +43,7 @@ const Videotestimonial = () => {
                         </div>
 
                         <div className={styles.real}>
-                            <Image src={isabella} className='img-fluid' />
+                            <Image alt="bitswits" loading="lazy" src={isabella} className='img-fluid' />
                             <div className={styles.cardtxt}>
                                 <div>
                                     <h6 className="f-16 f-playfair white">Isabella Riccardo</h6>

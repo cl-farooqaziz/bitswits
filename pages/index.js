@@ -21,6 +21,7 @@ import Faqs from '@/components/Faqs'
 import GetInTouch from '@/components/GetInTouch'
 import Locations from '@/components/Locations'
 import Videotestimonial from '@/components/Videotestimonial'
+import Script from 'next/script'
 
 export default function Home() {
 
@@ -96,20 +97,19 @@ export default function Home() {
         <meta name="google-site-verification" content="jg7nSxeneqpzOKNtVKXDQRVGjThDC6_7zGXI8wAXqkY" />
         <link rel="icon" href="images/icons/favicon.webp" />
 
-        {/* ===== jquery ===== */}
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"/>
+         {/* ===== jquery ===== */}
+         {/* <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"/> */}
         {/* ===== fancybox ===== */}
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" />
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" />
-     
-        
-
-        
+        {/* <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" /> */}
 
 
-        
       </Head>
 
+
+      <Script  src="/js/jquery.min.js" />
+      <link rel="stylesheet" href="/css/jquery.fancybox.min.css" />
+      <Script src="/js/jquery.fancybox.min.js" />
 
       <Homebanner
       subtitle = 'Elevate Your Mobile App Experience With'
