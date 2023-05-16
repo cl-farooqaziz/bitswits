@@ -112,14 +112,6 @@ export default function Home() {
         <meta name="msvalidate.01" content="7BBFFA763CEB48CAC0828E22D44DD12B" />
         <meta name="google-site-verification" content="jg7nSxeneqpzOKNtVKXDQRVGjThDC6_7zGXI8wAXqkY" />
         <link rel="icon" href="images/icons/favicon.webp" />
-
-        {/* ===== jquery ===== */}
-        {/* <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"/> */}
-        {/* ===== fancybox ===== */}
-        {/* <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" />
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" /> */}
-
-
       </Head>
 
 
