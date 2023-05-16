@@ -4,8 +4,7 @@
   background-position: center;
   background-size: cover;
   background-color: #000;
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding: 80px 0;
   height: 100%;
 }
 
@@ -89,7 +88,23 @@
 .form textarea:valid + label {
   display: none;
 }
-.form input#email:valid + label
- {
+.form input#email:valid + label {
   display: none;
+}
+
+/* =================Media Queries=================== */
+
+@media screen and (max-width: 767px) {
+  .getInTouch {
+    background-image: unset;
+    background-color: #000;
+    padding: 50px 0;
+    text-align: center;
+  }
+
+  .gitBtn {
+    padding: 11px 8px;
+    font-size: 14px;
+    letter-spacing: 0;
+  }
 }

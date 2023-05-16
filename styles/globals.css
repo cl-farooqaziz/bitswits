@@ -21,14 +21,6 @@
   padding: 0;
 }
 
-a {
-  text-decoration: none !important;
-}
-
-li {
-  list-style: none;
-}
-
 body,
 html {
   margin: 0;
@@ -36,28 +28,12 @@ html {
   overflow-x: hidden;
 }
 
-:focus-visible {
-  outline: inherit;
+a {
+  text-decoration: none !important;
 }
 
-button {
-  cursor: pointer;
-}
-
-.border-r {
-  border-right: 1px solid #ddd;
-}
-
-.border-l {
-  border-left: 1px solid #ddd;
-}
-
-.border-btm {
-  border-bottom: 1px solid var(--dg-color);
-}
-
-.f-uppercase {
-  text-transform: uppercase;
+li {
+  list-style: none;
 }
 
 /* scrollbar */
@@ -111,38 +87,53 @@ button {
 }
 
 /* fontsizes */
-.f-20 {
-  font-size: 20px;
-}
 .f-12 {
   font-size: 12px;
+  line-height: 22px;
 }
 .f-14 {
   font-size: 14px;
+  line-height: 24px;
 }
 .f-15 {
   font-size: 15px;
+  line-height: 25px;
 }
 .f-16 {
   font-size: 16px;
+  line-height: 26px;
 }
 .f-17 {
   font-size: 17px;
+  line-height: 27px;
 }
 .f-18 {
   font-size: 18px;
+  line-height: 28px;
+}
+.f-20 {
+  font-size: 20px;
+  line-height: 30px;
+}
+.f-22 {
+  font-size: 22px;
+  line-height: 32px;
 }
 .f-28 {
   font-size: 28px;
+  line-height: 38px;
 }
 .f-30 {
   font-size: 30px;
+  line-height: 40px;
 }
 .f-50 {
   font-size: 50px;
+  line-height: 60px;
 }
 .f-60 {
   font-size: 60px;
+  line-height: 70px;
 }
 
 /* lineheight */
@@ -189,6 +180,40 @@ button {
 
 .g-color {
   color: var(--g-color);
+}
+
+/* =====Btns===== */
+.btns {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 800;
+  font-family: var(--s-fonts);
+  text-transform: uppercase;
+}
+
+/* ========== */
+:focus-visible {
+  outline: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+.border-r {
+  border-right: 1px solid #ddd;
+}
+
+.border-l {
+  border-left: 1px solid #ddd;
+}
+
+.border-btm {
+  border-bottom: 1px solid var(--dg-color);
+}
+
+.f-uppercase {
+  text-transform: uppercase;
 }
 
 .f-capitalize {
@@ -324,16 +349,58 @@ button {
 /* =================Media Queries=================== */
 
 @media screen and (max-width: 767px) {
+  .f-20 {
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .f-22 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .f-28 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .f-30 {
+    font-size: 22px;
+    line-height: 32px;
+  }
+  .f-50 {
+    font-size: 28px;
+    line-height: 38px;
+  }
   .f-60 {
     font-size: 35px;
+    line-height: 45px;
   }
+
   .lheight70 {
     line-height: 45px;
   }
+
   .d-sm-none {
     display: none !important;
   }
+
   .herofold {
     padding: 18% 0 4%;
+  }
+
+  .btns {
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  br {
+    display: none;
+  }
+
+  .bannerslider.slick-slider .slick-next {
+    top: 220px;
+    right: 50%;
+  }
+
+  .testtimonials .slick-slider .slick-next {
+    display: none !important;
   }
 }

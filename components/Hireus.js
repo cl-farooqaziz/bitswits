@@ -33,19 +33,9 @@ const Hireus = () => {
             {
                 breakpoint: 992,
                 settings: {
+                    centerMode: false,
+                    centerPadding: '0px',
                     slidesToShow: 3,
-                }
-            },
-            {
-                breakpoint: 768,
-                settings: {
-                    slidesToShow: 2,
-                }
-            },
-            {
-                breakpoint: 575,
-                settings: {
-                    slidesToShow: 1,
                 }
             }
         ]
@@ -72,7 +62,7 @@ const Hireus = () => {
                     </Row>
                 </Container>
             </section>
-            <section className={`${styles.team} mt-5`}>
+            <section className={`${styles.team} mt-4 mt-lg-5`}>
                 <Row className={styles.teamRow}>
                     <Col lg={12}>
                         <Slider {...teamSlider} className='mt-3'>

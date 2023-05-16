@@ -42,6 +42,10 @@
   text-align: center;
   padding-bottom: 200px;
 }
+.arrowBtn {
+  display: flex;
+  align-items: center;
+}
 .arrowBtn img {
   margin-left: 3%;
 }
@@ -54,11 +58,50 @@
   margin-right: 15px;
 }
 
+/* =================Media Queries=================== */
+
 @media screen and (max-width: 1200px) {
   .hearfelt:after {
     background-image: none;
+    margin: 0;
   }
   .makes {
     padding-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .makes {
+    padding-bottom: 25px;
+  }
+
+  .rightpadding,
+  .rightpadding p {
+    text-align: center;
+    padding-right: 0;
+  }
+
+  .leftpadding,
+  .leftpadding p {
+    text-align: center;
+    padding-left: 0;
+  }
+
+  .arrowBtn {
+    justify-content: center;
+  }
+
+  .cardImg {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  .crdImg {
+    width: 80%;
+  }
+
+  .cardImg img {
+    width: 100%;
   }
 }

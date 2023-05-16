@@ -59,7 +59,6 @@ const Endorsements = () => {
                         <Col xl={4}>
                             <div>
 
-
                                 <p className="f-montserrat f-700 f-14 mb-0 grey lheight24 t-justify">Endorsements on different Platforms</p>
 
                                 <h1 className="f-50 f-playfair f-700 mb-3 black lheight60">Awards And Recognition</h1>

@@ -20,13 +20,13 @@ const Footer = () => {
                 <Container>
                     <div className={styles.footerNav}>
                         <Row>
-                            <Col lg={5} className="mb-lg-0 mb-4">
+                            <Col lg={5} className="mb-lg-0 mb-2 mb-lg-4">
                                 <div className={`${styles.footTitle} mb-3 pb-3`}>
-                                    <h3>Services</h3>
+                                    <h3 className="f-montserrat f-w f-22">Services</h3>
                                 </div>
                                 <Row>
                                     <Col md={6}>
-                                        <ul className='p-0'>
+                                        <ul className='p-0 mb-0'>
                                             <li>
                                                 <Link href="#">iPhone App Development</Link>
                                             </li>
@@ -77,13 +77,13 @@ const Footer = () => {
                                     </Col>
                                 </Row>
                             </Col>
-                            <Col lg={5} className="mb-lg-0 mb-4">
+                            <Col lg={5} className="mb-lg-0 mb-2 mb-lg-4">
                                 <div className={`${styles.footTitle} mb-3 pb-3`}>
-                                    <h3>On Demand Solutions</h3>
+                                    <h3 className="f-montserrat f-w f-22">On Demand Solutions</h3>
                                 </div>
                                 <Row>
                                     <Col md={6}>
-                                        <ul className='p-0'>
+                                        <ul className='p-0 mb-0'>
                                             <li>
                                                 <Link href="#" className="modal-toggle">On Demand App Development</Link>
                                             </li>
@@ -123,10 +123,10 @@ const Footer = () => {
                                 </Row>
                             </Col>
                             <Col lg={2}>
-                                <div className={`${styles.footTitle} mb-3 pb-3 linkspost`}>
+                                <div className={`${styles.footTitle} mb-3 pb-3`}>
                                     <h3 className="f-montserrat f-w f-22">Useful Links</h3>
                                 </div>
-                                <ul className='p-0 mb-1'>
+                                <ul className='p-0 mb-lg-1'>
                                     <li>
                                         <Link href="#">Contact Us</Link>
                                     </li>
@@ -149,19 +149,19 @@ const Footer = () => {
                                 <ul className={`${styles.contacts} ${styles.myLinks} p-0`}>
                                     <li className="mb-2">
                                         <Link href="mailto:info@bitswits.co">
-                                            <Image alt="bitswits"      className='img-fluid'
+                                            <Image alt="bitswits" className='img-fluid'
                                                 src={mail}
-                                            
+
                                                 loading="lazy"
                                             />
-                                            <span className="email f-upperCase">Contact Email</span>
+                                            <span className="email f-uppercase">Contact Email</span>
                                         </Link>
                                     </li>
                                     <li className="fw-bold">
                                         <Link href="tel:13123795987">
-                                            <Image alt="bitswits"      className='img-fluid'
+                                            <Image alt="bitswits" className='img-fluid'
                                                 src={call}
-                                          
+
                                                 loading="lazy"
                                             />
                                             <span className="number">+1 312 379 5987</span>
@@ -169,9 +169,9 @@ const Footer = () => {
                                     </li>
                                     <li className="fw-bold">
                                         <Link href="tel:18335006007">
-                                            <Image alt="bitswits"      className='img-fluid'
+                                            <Image alt="bitswits" className='img-fluid'
                                                 src={call}
-                                        
+
                                                 loading="lazy"
                                             />
                                             <span className="number">+1 833 500 6007</span>
@@ -189,45 +189,45 @@ const Footer = () => {
                                 <ul className={styles.socials}>
                                     <li>
                                         <Link href="https://www.facebook.com/officialbitswits" target="_blank" rel="noopener noreferrer">
-                                            <Image alt="bitswits"      className='img-fluid'
+                                            <Image alt="bitswits" className='img-fluid'
                                                 src={fb}
-                                           
+
                                                 loading="lazy"
                                             />
                                         </Link>
                                     </li>
                                     <li>
                                         <Link href="https://www.instagram.com/officialbitswits/" target="_blank" rel="noopener noreferrer">
-                                            <Image alt="bitswits"      className='img-fluid'
+                                            <Image alt="bitswits" className='img-fluid'
                                                 src={inta}
-                                 
+
                                                 loading="lazy"
                                             />
                                         </Link>
                                     </li>
                                     <li>
                                         <Link href="https://twitter.com/BitsWits_/" target="_blank" rel="noopener noreferrer">
-                                            <Image alt="bitswits"      className='img-fluid'
+                                            <Image alt="bitswits" className='img-fluid'
                                                 src={tweet}
-                                    
+
                                                 loading="lazy"
                                             />
                                         </Link>
                                     </li>
                                     <li>
                                         <Link href="https://www.linkedin.com/company/officialbitswits" target="_blank" rel="noopener noreferrer">
-                                            <Image alt="bitswits"      className='img-fluid'
+                                            <Image alt="bitswits" className='img-fluid'
                                                 src={linkedin}
-                                    
+
                                                 loading="lazy"
                                             />
                                         </Link>
                                     </li>
                                     <li>
                                         <Link href="https://www.youtube.com/@officialbitswits" target="_blank" rel="noopener noreferrer">
-                                            <Image alt="bitswits"      className='img-fluid'
+                                            <Image alt="bitswits" className='img-fluid'
                                                 src={youtube}
-                                        
+
                                                 loading="lazy"
                                             />
                                         </Link>

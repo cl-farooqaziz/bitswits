@@ -40,3 +40,24 @@
 .arrowBtn1 span:hover {
   margin-right: 15px;
 }
+
+/* =================Media Queries=================== */
+
+@media screen and (max-width: 767px) {
+  .Integration{
+    background-image: unset;
+    background-color: #000;
+    padding: 80px 0;
+    text-align: center;
+  }
+
+  .Integration p{
+    text-align: center;
+  }
+
+  .arrowBtn1 {
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 30px;
+  }
+}

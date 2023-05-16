@@ -34,3 +34,25 @@
 .publicationimg:hover {
   box-shadow: rgb(149 157 165 / 20%) 0 8px 24px;
 }
+
+/* =================Media Queries=================== */
+
+@media screen and (max-width: 767px) {
+  .range {
+    background-image: unset;
+    background-color: #000;
+  }
+
+  .rangSlide .publicationimg {
+    height: 120px;
+    width: 100px;
+    min-height: 115px;
+    margin: 0 auto;
+  }
+
+  .rangSlide .publicationimg h4 {
+    font-size: 8px;
+    line-height: 16px;
+    margin: 0;
+  }
+}

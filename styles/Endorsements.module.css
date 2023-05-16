@@ -30,3 +30,19 @@
 .arrowBtn span:hover {
   margin-right: 15px;
 }
+
+/* =================Media Queries=================== */
+
+@media screen and (max-width: 767px) {
+  .endorsements,
+  .endorsements p {
+    text-align: center;
+  }
+
+  .arrowBtn{
+    justify-content: center;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 25px;
+  }
+}

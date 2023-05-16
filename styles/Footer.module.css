@@ -29,7 +29,7 @@
   font-family: "Montserrat", sans-serif;
 }
 
-.footerNav ul li a:hover{
+.footerNav ul li a:hover {
   color: #f69110;
 }
 
@@ -39,7 +39,7 @@
   gap: 8px;
   line-height: 30px;
   font-size: 13px;
-  font-weight: 600;
+  font-weight: 500;
   font-family: "Montserrat", sans-serif;
   color: #f69110;
 }
@@ -84,5 +84,25 @@
   font-size: 14px;
   font-weight: 600;
   font-family: "Montserrat", sans-serif;
-  text-decoration: underline;
+  text-decoration: underline !important;
+}
+
+/* =================Media Queries=================== */
+
+@media screen and (max-width: 767px) {
+  .footerNav .contacts li a {
+    font-weight: 400;
+  }
+
+  .trmCon {
+    text-align: left;
+  }
+
+  .termsMain {
+    float: left;
+  }
+
+  .termsCo {
+    padding: 0;
+  }
 }

@@ -1,8 +1,11 @@
 import React from 'react'
+import Image from 'next/image'
 import styles from '@/styles/Range.module.css'
 import { Container, Row, Col } from 'react-bootstrap'
-import Image from 'next/image'
-
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+//images
 import publication1 from '/public/images/range/1.webp'
 import publication2 from '/public/images/range/2.webp'
 import publication3 from '/public/images/range/3.webp'
@@ -22,96 +25,135 @@ const Range = () => {
   const bloglisting = [
     {
       image: publication1,
-      title:'HEALTHCARE'
+      title: 'HEALTHCARE'
     },
     {
       image: publication2,
-      title:'E-COMMERCE'
+      title: 'E-COMMERCE'
 
     },
     {
       image: publication3,
-      title:'EDUCATION'
+      title: 'EDUCATION'
 
     },
     {
       image: publication4,
-      title:'BANKING'
+      title: 'BANKING'
 
     },
     {
       image: publication5,
-      title:'LIFESTYLE'
+      title: 'LIFESTYLE'
 
     },
     {
       image: publication6,
-      title:'SPORTS'
+      title: 'SPORTS'
 
     },
     {
       image: publication7,
-      title:'RESTAURANTS'
+      title: 'RESTAURANTS'
 
     },
 
     {
       image: publication8,
-      title:'TRAVEL'
+      title: 'TRAVEL'
 
     },
     {
       image: publication9,
-      title:'SOCIAL'
+      title: 'SOCIAL'
 
     },
     {
       image: publication10,
-      title:'ENTERTAINMENT'
+      title: 'ENTERTAINMENT'
 
     },
     {
       image: publication11,
-      title:'GAME'
+      title: 'GAME'
 
     },
     {
       image: publication12,
-      title:'TRANSPORTATION'
+      title: 'TRANSPORTATION'
 
     },
 
   ]
 
+  let rangSlider = {
+    dots: false,
+    arrows: false,
+    autoplay: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+  };
+
   return (
 
-    <section className={styles.range}>
-
-      <Container>
-
-        <Row className="gy-3 sector">
-          <Col md={11}>
-            <h3 className='t-center f-18 f-montserrat f-700 orange'>WE SERVE A RANGE OF SECTORS</h3>
-            <h2 className='f-50 t-center white f-playfair'>Mobile Application Development Company
-              <br></br>  For Everyone Out There
-            </h2>
-            <p className=" f-montserrat f-15 f-500 white t-center mt-3">
-                    BitsWits provides mobile app development service in the USA for every industry with innovation and efficiency. We create customized mobile solutions for various industries, from e-commerce to the healthcare or gaming industry. Our skilled app developers are determined to come up with mobile apps that meet the unique needs of every client and their business.
-                </p>
-          </Col>
-        </Row>
-        <Row className="gy-2 mt-3">
-          {bloglisting.map((item, i) =>
-            <Col md={2} key={i} className='imgspacetop'>
-              <div className={styles.publicationimg}>
-                <Image alt="bitswits"      loading="lazy" src={item.image}  className='img-fluid' />
-                <h4 className="f-montserrat f-14 f-500 white mt-2">{item.title}</h4>
-              </div>
+    <>
+      <section className={`${styles.range} d-lg-block d-none`}>
+        <Container>
+          <Row className="gy-3 sector">
+            <Col md={11}>
+              <h3 className='t-center f-18 f-montserrat f-700 orange'>WE SERVE A RANGE OF SECTORS</h3>
+              <h2 className='f-50 t-center white f-playfair'>Mobile Application Development Company
+                <br></br>  For Everyone Out There
+              </h2>
+              <p className=" f-montserrat f-15 f-500 white t-center mt-3">
+                BitsWits provides mobile app development service in the USA for every industry with innovation and efficiency. We create customized mobile solutions for various industries, from e-commerce to the healthcare or gaming industry. Our skilled app developers are determined to come up with mobile apps that meet the unique needs of every client and their business.
+              </p>
             </Col>
-          )}
-        </Row>
-      </Container>
-    </section>
+          </Row>
+          <Row className="gy-2 mt-3">
+            {bloglisting.map((item, i) =>
+              <Col md={2} key={i} className='imgspacetop'>
+                <div className={styles.publicationimg}>
+                  <Image alt="bitswits" loading="lazy" src={item.image} className='img-fluid' />
+                  <h4 className="f-montserrat f-14 f-500 white mt-2">{item.title}</h4>
+                </div>
+              </Col>
+            )}
+          </Row>
+        </Container>
+      </section>
+
+      <section className={`${styles.range} d-lg-none d-block`}>
+        <Container>
+          <Row className="gy-3 sector">
+            <Col md={11}>
+              <h3 className='t-center f-18 f-montserrat f-700 orange'>WE SERVE A RANGE OF SECTORS</h3>
+              <h2 className='f-50 t-center white f-playfair'>Mobile Application Development Company
+                <br></br>  For Everyone Out There
+              </h2>
+              <p className=" f-montserrat f-15 f-500 white t-center mt-3">
+                BitsWits provides mobile apps development company in USA for every industry with innovation and efficiency. Our skilled app developers are determined to come up with mobile apps that meet the unique needs of every client and their business.
+              </p>
+            </Col>
+          </Row>
+          <Row className="gy-2 mt-3">
+            <Slider {...rangSlider} className={styles.rangSlide}>
+              {bloglisting.map((item, i) =>
+                <Col key={i} className='col-4 imgspacetop'>
+                  <div className={styles.publicationimg}>
+                    <Image alt="bitswits" loading="lazy" src={item.image} className='img-fluid' />
+                    <h4 className="f-montserrat f-14 f-500 white mt-2">{item.title}</h4>
+                  </div>
+                </Col>
+              )}
+            </Slider>
+          </Row>
+        </Container>
+      </section>
+    </>
+
   )
 }
 

@@ -17,7 +17,6 @@ function Homebanner() {
                         <Col xl={8}>
                             <div>
 
-
                                 <p className="f-montserrat f-700 f-16 mb-1 black lheight24 t-justify">Elevate Your Mobile App Experience With</p>
 
                                 <h1 className="f-60 f-playfair f-700 mb-3 black lheight70">Top Mobile App <br className="d-xl-block" /> Development Company</h1>
@@ -35,7 +34,7 @@ function Homebanner() {
                                 </p>
 
 
-                                <Link href='#' className={styles.arrowBtn}>
+                                <Link href='#' className={`${styles.arrowBtn} btns`}>
                                     <span>Get Free <br /> Consultation </span>
                                     <Image alt="bitswits"      src={right} width="50" height="21"  loading="lazy" />
                                 </Link>

@@ -10,12 +10,12 @@ const GetInTouch = () => {
                 <Container>
                     <Row>
                         <Col lg={8} xl={6}>
-                            <h3 className="orange f-18 f-700 f-montserrat">Ready For The App Revolution?</h3>
-                            <h2 className="white f-50 f-700  f-playfair mt-3 mb-5">
+                            <h3 className="orange f-18 f-700 f-montserrat mb-0">Ready For The App Revolution?</h3>
+                            <h2 className="white f-50 f-700  f-playfair mt-0 mt-lg-3">
                                 Let's Connect and <br />
                                 Make It Happen!
                             </h2>
-                            <div className={`${styles.proposalForm} mt-5 w-100`}>
+                            <div className={`${styles.proposalForm} mt-3 mt-lg-5 w-100`}>
                                 <form className={styles.form}>
                                     <div className="input-group">
                                         <input type="text" className="form-control" id="name" required />

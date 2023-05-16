@@ -13,6 +13,7 @@ const Locations = () => {
         arrows: false,
         autoplay: true,
         infinite: true,
+        adaptiveHeight: true,
         speed: 500,
         slidesToShow: 1,
         slidesToScroll: 1,

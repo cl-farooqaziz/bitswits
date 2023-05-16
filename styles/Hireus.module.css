@@ -53,3 +53,30 @@
 .team .slideBox p {
   letter-spacing: 1px;
 }
+
+/* =================Media Queries=================== */
+
+@media screen and (max-width: 767px) {
+  .team .slideBox {
+    border: none;
+    border-right: 0;
+    height: 120px;
+    width: 235px;
+    margin-bottom: 70px;
+  }
+
+  .team .slideBox:hover {
+    box-shadow: rgb(149 157 165 / 20%) 0 8px 24px;
+  }
+
+  .team .slideBox p {
+    font-size: 8px;
+    line-height: 16px;
+    margin: 0;
+  }
+
+  .btnHire {
+    padding: 15px 11px;
+    font-size: 10px;
+  }
+}

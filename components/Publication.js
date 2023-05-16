@@ -72,29 +72,28 @@ const Publication = () => {
   ]
 
   return (
-
-    <section className={styles.publi}>
-
-      <Container>
-
-        <Row className="gy-3">
-          <Col md={12}>
-            <h3 className='t-center f-18 f-montserrat f-700 orange'>PUBLICATIONS</h3>
-            <h2 className='f-50 t-center black f-playfair'> Many Got Featured In Major <br></br>   Publications Just    By Working With Us.
-            </h2>
-          </Col>
-        </Row>
-        <Row className="gy-3 mt-4">
-          {bloglisting.map((item, i) =>
-            <Col md={2} key={i} className='imgspacetop'>
-              <div className={styles.publicationimg}>
-                <Image alt="bitswits"      loading="lazy" src={item.image}  className='img-fluid' />
-              </div>
+    <>
+      <section className={styles.publi}>
+        <Container>
+          <Row className="gy-3">
+            <Col md={12}>
+              <h3 className='t-center f-18 f-montserrat f-700 orange'>PUBLICATIONS</h3>
+              <h2 className='f-50 t-center black f-playfair'> Many Got Featured In Major <br></br>   Publications Just    By Working With Us.
+              </h2>
             </Col>
-          )}
-        </Row>
-      </Container>
-    </section>
+          </Row>
+          <Row className="gy-3 mt-4">
+            {bloglisting.map((item, i) =>
+              <Col md={2} key={i} className='imgspacetop'>
+                <div className={styles.publicationimg}>
+                  <Image alt="bitswits" loading="lazy" src={item.image} className='img-fluid' />
+                </div>
+              </Col>
+            )}
+          </Row>
+        </Container>
+      </section>
+    </>
   )
 }
 
