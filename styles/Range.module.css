@@ -3,6 +3,7 @@
   align-items: center;
   text-align: center;
   min-height: 140px;
+  height: 140px;
   display: flex;
   border: 1px solid #707070;
   padding: 20px;
@@ -37,12 +38,14 @@
 
 /* =================Media Queries=================== */
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 991px) {
   .range {
     background-image: unset;
     background-color: #000;
   }
+}
 
+@media screen and (max-width: 767px) {
   .rangSlide .publicationimg {
     height: 120px;
     width: 100px;

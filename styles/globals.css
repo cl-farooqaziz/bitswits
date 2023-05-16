@@ -354,7 +354,6 @@ button {
   }
 }
 
-
 .touch {
   box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0;
 }
@@ -362,30 +361,30 @@ button {
   border: unset;
 }
 
-
-.desktop{
+.desktop {
   display: block;
 }
-.mobile{
+.mobile {
   display: none;
 }
 
 /* =================Media Queries=================== */
 
 @media screen and (max-width: 991px) {
-
-  .bgimageserve .col-md-4{
+  .bgimageserve .col-md-4 {
     width: 100%;
   }
 
-
-}
-@media screen and (max-width: 767px) {
-
-  .desktop{
+  br {
     display: none;
   }
-  .mobile{
+}
+
+@media screen and (max-width: 767px) {
+  .desktop {
+    display: none;
+  }
+  .mobile {
     display: block;
   }
   .f-20 {
@@ -428,10 +427,6 @@ button {
   .btns {
     font-size: 16px;
     line-height: 26px;
-  }
-
-  br {
-    display: none;
   }
 
   .bannerslider.slick-slider .slick-next {

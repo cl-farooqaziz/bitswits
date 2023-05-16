@@ -1,17 +1,19 @@
 import Head from 'next/head'
+import Script from 'next/script'
+import Slider from 'react-slick'
+import { Container, Row } from 'react-bootstrap'
 import Homebanner from '@/components/Homebanner'
-import Endorsements from '@/components/Endorsements'
-import Homevideo from '@/components/Homevideo'
-import Whatourclients from '@/components/Whatourclients'
-import Partner from '@/components/Partner'
-import Servicesmobile from '@/components/Servicesmobile'
 import servicesmobile from '/public/images/servicesmobile/1.webp'
 import servicesmobile2 from '/public/images/servicesmobile/2.webp'
 import servicesmobile3 from '/public/images/servicesmobile/3.webp'
 import servicesmobile4 from '/public/images/servicesmobile/4.webp'
 import servicesmobile5 from '/public/images/servicesmobile/5.webp'
 import servicesmobile6 from '/public/images/servicesmobile/6.webp'
-import { Container, Row } from 'react-bootstrap'
+import Endorsements from '@/components/Endorsements'
+import Homevideo from '@/components/Homevideo'
+import Whatourclients from '@/components/Whatourclients'
+import Partner from '@/components/Partner'
+import Servicesmobile from '@/components/Servicesmobile'
 import Publication from '@/components/Publication'
 import Range from '@/components/Range'
 import Integration from '@/components/Integration'
@@ -21,8 +23,6 @@ import Faqs from '@/components/Faqs'
 import GetInTouch from '@/components/GetInTouch'
 import Locations from '@/components/Locations'
 import Videotestimonial from '@/components/Videotestimonial'
-import Script from 'next/script'
-import Slider from 'react-slick'
 
 export default function Home() {
 
@@ -89,7 +89,6 @@ export default function Home() {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
-    
   };
 
   return (
@@ -145,16 +144,15 @@ export default function Home() {
 
           <Row className='gy-4'>
 
-          
-              {fine.map((item, i) =>
-                <Servicesmobile key={i}
-                  title={item.title}
-                  text={item.text}
-                  img1={item.img}
+            {fine.map((item, i) =>
+              <Servicesmobile key={i}
+                title={item.title}
+                text={item.text}
+                img1={item.img}
 
-                />
-              )}
-         
+              />
+            )}
+
           </Row>
         </Container>
       </div>

@@ -43,15 +43,20 @@
 
 /* =================Media Queries=================== */
 
-@media screen and (max-width: 767px) {
-  .Integration{
+@media screen and (max-width: 991px) {
+  .Integration {
     background-image: unset;
     background-color: #000;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .Integration {
     padding: 80px 0;
     text-align: center;
   }
 
-  .Integration p{
+  .Integration p {
     text-align: center;
   }
 
