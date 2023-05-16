@@ -370,6 +370,16 @@ button {
 
 /* =================Media Queries=================== */
 
+@media screen and (max-width: 1200px) {
+  .border-r {
+    border-right: 0;
+  }
+
+  .border-l {
+    border-left: 0;
+  }
+}
+
 @media screen and (max-width: 991px) {
   .bgimageserve .col-md-4 {
     width: 100%;

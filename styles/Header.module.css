@@ -353,9 +353,8 @@
   color: #fff;
 }
 
-
-
-.navTogle {
+.navTogle,
+.backArrow {
   display: none;
 }
 
@@ -372,14 +371,6 @@
 }
 
 @media screen and (max-width: 1200px) {
-  .navMenu {
-    display: none;
-  }
-
-  .navBtns {
-    margin-left: auto;
-  }
-
   .navTogle {
     margin-left: 1rem;
     display: block;
@@ -392,6 +383,159 @@
     display: block;
     margin: 6px auto;
     transition: 0.5s ease-in-out;
+  }
+
+  .navMenu {
+    height: 100vh;
+    width: 50%;
+    z-index: 9999;
+    background-color: #1a1a1a;
+    overflow-x: hidden;
+    transition: 0.5s;
+    position: fixed;
+    left: -100%;
+    top: 0;
+    transition: all 0.7s ease-in-out;
+  }
+
+  .navMenu.active {
+    left: 0;
+  }
+
+  .mainUl {
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 30px;
+    margin: 0;
+    gap: 2px;
+    height: 100%;
+    width: 100%;
+  }
+
+  .mainLi {
+    height: auto;
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    padding: 20px 0;
+  }
+
+  .arrImg {
+    filter: invert(1);
+    width: 40px;
+  }
+
+  .mainA {
+    font-size: 20px;
+    color: var(--w-color);
+  }
+
+  .mainA:hover {
+    color: #fff;
+  }
+
+  .navBtns {
+    margin-left: auto;
+  }
+
+  .megaMenu1,
+  .megaMenu2 {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: auto;
+    opacity: 1;
+    display: none;
+    margin-top: 2px;
+    background: #1a1a1a;
+    box-shadow: 0 15px 15px 0 rgb(0 0 0 / 17%);
+    padding-bottom: 30px;
+  }
+
+  .megaLi:hover .megaMenu1,
+  .megaLi:hover .megaMenu2 {
+    display: none;
+    animation: unset;
+    transform-origin: unset;
+  }
+
+  .megaMenu1 .innerCol {
+    padding: 20px 10px 0px;
+  }
+
+  .megaHead {
+    color: #fff;
+    margin-top: 20px;
+    font-size: 26px;
+  }
+
+  .servicesHeading h5 a {
+    font-size: 18px;
+    color: var(--p-color);
+  }
+
+  .megaMenu1 .megaA {
+    color: var(--w-color);
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+    width: 100%;
+    display: block;
+  }
+
+  .strip {
+    display: none;
+  }
+
+  .megaMenu2 .innerCol {
+    padding: 0px 10px;
+  }
+
+  .workTitle {
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 1px;
+  }
+
+  .realDummy {
+    font-size: 15px;
+    color: #d6d5d5;
+    margin-top: 5px;
+  }
+
+  .scrn {
+    font-size: 15px;
+  }
+
+  .view {
+    display: none;
+  }
+
+  .megaMenu2 .megaList {
+    margin-top: 30px;
+  }
+
+  .mgaLiN {
+    margin-top: 10px;
+  }
+
+  .leftborder {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .readMore p {
+    width: 45%;
+    margin-top: 20px;
+  }
+
+  .backArrow {
+    display: block;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 1;
+    filter: invert(1);
   }
 }
 

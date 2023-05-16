@@ -186,7 +186,7 @@ const Footer = () => {
                     <Container>
                         <Row className="align-items-md-center">
                             <Col md={4} lg={3} className="mt-md-0 mt-4">
-                                <ul className={styles.socials}>
+                                <ul className={`${styles.socials} mb-0 p-0`}>
                                     <li>
                                         <Link href="https://www.facebook.com/officialbitswits" target="_blank" rel="noopener noreferrer">
                                             <Image alt="bitswits" className='img-fluid'
@@ -235,7 +235,7 @@ const Footer = () => {
                                 </ul>
                             </Col>
                             <Col md={4} lg={6}>
-                                <p className={`${styles.trmCon} f-montserrat f-12 white f-500`}>
+                                <p className={`${styles.trmCon} f-montserrat f-12 white f-500 mb-0`}>
                                     Copyright © 2023 BitsWits. |
                                     <Link href="#" className="white ps-1" target="_blank">
                                         Brand Of Bhaoo Incorporation Company
@@ -244,7 +244,7 @@ const Footer = () => {
                             </Col>
                             <Col md={4} lg={3}>
                                 <div className={styles.termsMain}>
-                                    <ul className={styles.termsCo}>
+                                    <ul className={`${styles.termsCo} p-0 mb-0`}>
                                         <li>
                                             <Link href="#">Terms of Use</Link>
                                         </li>

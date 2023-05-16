@@ -3,13 +3,13 @@ import Link from 'next/link';
 import Image from 'next/image'
 import styles from '@/styles/Header.module.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Navbar from 'react-bootstrap/Navbar';
 import { Container, Row, Col } from 'react-bootstrap';
 //images
 import logo from '../public/images/icons/m-logo.svg'
 import call from '../public/images/icons/phone-icon.webp'
 import user from '../public/images/icons/user-icon.webp'
 import arrow from '../public/images/icons/down-arrow.webp'
+import backarrow from '../public/images/icons/back-arrow.webp'
 import mIcon from '../public/images/icons/mobile-icon.webp'
 import gIcon from '../public/images/icons/game-icon.webp'
 import dicon from '../public/images/icons/design-icon.webp'
@@ -22,8 +22,13 @@ import media6 from '../public/images/media/6.webp'
 import media7 from '../public/images/media/7.webp'
 
 
-
 const Header = () => {
+
+    const [isActive, setIsActive] = useState(false);
+
+    const handleMenu = () => {
+        setIsActive((prev) => !prev);
+    }
 
     const [travelappshow, settravelapp] = useState(true);
     const [estatappshow, setestatapp] = useState(false);
@@ -115,9 +120,9 @@ const Header = () => {
                                 />
                             </Link>
                         </div>
-                        <div className={`${styles.navMenu} headimg`}>
+                        <div className={isActive ? `${styles.navMenu} ${styles.active}` : `${styles.navMenu} headimg`}>
                             <ul className={styles.mainUl}>
-                                <li className={styles.mainLi}>
+                                <li className={styles.mainLi} onClick={handleMenu}>
                                     <Link href="/" className={styles.mainA}>
                                         <span>Home</span>
                                     </Link>
@@ -125,13 +130,19 @@ const Header = () => {
                                 <li className={`${styles.mainLi} ${styles.megaLi}`}>
                                     <Link href="#" className={styles.mainA}>
                                         <span>Services</span>
-                                        <Image alt="bitswits" className='img-fluid'
+                                        <Image alt="bitswits" className={`${styles.arrImg} img-fluid`}
                                             src={arrow}
-
                                             loading="lazy"
                                         />
                                     </Link>
                                     <div className={styles.megaMenu1}>
+                                        <div class={styles.backArrow}>
+                                            <Image
+                                                alt="bitswits"
+                                                src={backarrow}
+                                                loading="lazy"
+                                            />
+                                        </div>
                                         <Container>
                                             <Row className={styles.rowPad}>
                                                 <Col xl={3} className="border-r">
@@ -184,7 +195,7 @@ const Header = () => {
                                                                             </li>
                                                                         </ul>
                                                                     </Col>
-                                                                    <Col xl={6} className='ps-0'>
+                                                                    <Col xl={6} className='ps-xl-0'>
                                                                         <ul className={`${styles.megaUl} p-0`}>
                                                                             <li className={styles.megaList}>
                                                                                 <Link href="react-native-app-development-company"
@@ -259,7 +270,7 @@ const Header = () => {
                                                                     </ul>
                                                                 </div>
                                                             </Col>
-                                                            <Col xl={5} className="border-l">
+                                                            <Col xl={5} className="border-l mt-4 mt-xl-0">
                                                                 <div className={`${styles.srvsSideLinks} ${styles.game}`}>
                                                                     <div className={styles.servicesHeading}>
                                                                         <div className={styles.contains}>
@@ -295,7 +306,6 @@ const Header = () => {
                                                                 <div className={styles.new}>
                                                                     <Image alt="bitswits"
                                                                         src={mIcon}
-
                                                                     />
                                                                 </div>
                                                                 <div className={styles.contains}>
@@ -312,7 +322,6 @@ const Header = () => {
                                                                 <div className={styles.new}>
                                                                     <Image alt="bitswits"
                                                                         src={gIcon}
-
                                                                     />
                                                                 </div>
                                                                 <div className={styles.contains}>
@@ -329,7 +338,6 @@ const Header = () => {
                                                                 <div className={styles.new}>
                                                                     <Image alt="bitswits"
                                                                         src={dicon}
-
                                                                     />
                                                                 </div>
                                                                 <div className={`${styles.contains} 
@@ -351,13 +359,19 @@ const Header = () => {
                                 <li className={`${styles.mainLi} ${styles.megaLi}`}>
                                     <Link href="#" className={styles.mainA}>
                                         <span>Our Work</span>
-                                        <Image alt="bitswits" className='img-fluid'
+                                        <Image alt="bitswits" className={`${styles.arrImg} img-fluid`}
                                             src={arrow}
-
                                             loading="lazy"
                                         />
                                     </Link>
                                     <div className={styles.megaMenu2}>
+                                        <div class={styles.backArrow}>
+                                            <Image
+                                                alt="bitswits"
+                                                src={backarrow}
+                                                loading="lazy"
+                                            />
+                                        </div>
                                         <Container>
                                             <Row>
                                                 <Col xl={3} lg={12}>
@@ -399,7 +413,7 @@ const Header = () => {
                                                 <Col xl={3} lg={12}>
                                                     <div className={styles.innerCol}>
                                                         <ul className={`${styles.megaUl} p-0`}>
-                                                            <li className={`${styles.megaList}`}>
+                                                            <li className={`${styles.megaList} ${styles.mgaLiN}`}>
                                                                 <span className={styles.workTitle}>
                                                                     <Link className={styles.workTitle} href="#">
                                                                         Sound App
@@ -433,7 +447,7 @@ const Header = () => {
                                                 <Col xl={3} lg={12}>
                                                     <div className={styles.innerCol}>
                                                         <ul className={`${styles.megaUl} p-0`}>
-                                                            <li className={`${styles.megaList}`}>
+                                                            <li className={`${styles.megaList} ${styles.mgaLiN}`}>
                                                                 <span className={styles.workTitle}>
                                                                     <Link className={styles.workTitle}
                                                                         href="#">
@@ -520,13 +534,13 @@ const Header = () => {
                                             </Row>
                                         </Container>
                                     </div >
-                                </li >
-                                <li className={styles.mainLi}>
+                                </li>
+                                <li className={styles.mainLi} onClick={handleMenu}>
                                     <Link href="#" className={styles.mainA}>
                                         <span>About</span>
                                     </Link>
                                 </li>
-                                <li className={styles.mainLi}>
+                                <li className={styles.mainLi} onClick={handleMenu}>
                                     <Link href="#" className={styles.mainA}>
                                         <span>Contact</span>
                                     </Link>
@@ -554,7 +568,7 @@ const Header = () => {
                                 <span>Live Chat</span>
                             </Link>
                         </div>
-                        <div className={styles.navTogle}>
+                        <div className={styles.navTogle} onClick={handleMenu}>
                             <span className={styles.line}></span>
                             <span className={styles.line}></span>
                             <span className={styles.line}></span>
