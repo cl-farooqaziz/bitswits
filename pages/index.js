@@ -102,7 +102,7 @@ export default function Home() {
 
       <Endorsements />
 
-      {/* <Homevideo /> */}
+      <Homevideo />
 
       <Partner />
 
@@ -140,7 +140,7 @@ export default function Home() {
 
       <Whatourclients />
 
-      {/* <Videotestimonial /> */}
+      <Videotestimonial />
 
       <Consultation />
 
