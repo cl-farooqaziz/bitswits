@@ -2,7 +2,7 @@ import React from 'react'
 import styles from '@/styles/Publication.module.css'
 import { Container, Row, Col } from 'react-bootstrap'
 import Image from 'next/image'
-
+import Slider from 'react-slick'
 import publication1 from '/public/images/publication/1.webp'
 import publication2 from '/public/images/publication/2.webp'
 import publication3 from '/public/images/publication/3.webp'
@@ -71,9 +71,19 @@ const Publication = () => {
 
   ]
 
+  let rangSlider = {
+    dots: false,
+    arrows: false,
+    autoplay: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+  };
+
   return (
     <>
-      <section className={styles.publi}>
+      <section className={`${styles.publi} d-lg-block d-none`}>
         <Container>
           <Row className="gy-3">
             <Col md={12}>
@@ -90,6 +100,28 @@ const Publication = () => {
                 </div>
               </Col>
             )}
+          </Row>
+        </Container>
+      </section>
+      <section className={`${styles.publi} d-lg-none d-block`}>
+        <Container>
+          <Row className="gy-3">
+            <Col md={12}>
+              <h3 className='t-center f-18 f-montserrat f-700 orange'>PUBLICATIONS</h3>
+              <h2 className='f-50 t-center black f-playfair'> Many Got Featured In Major <br></br>   Publications Just    By Working With Us.
+              </h2>
+            </Col>
+          </Row>
+          <Row className="gy-3 mt-4">
+          <Slider {...rangSlider} className={styles.rangSlide}>
+            {bloglisting.map((item, i) =>
+              <Col md={2} key={i} className='imgspacetop'>
+                <div className={styles.publicationimg}>
+                  <Image alt="bitswits" loading="lazy" src={item.image} className='img-fluid' />
+                </div>
+              </Col>
+            )}
+             </Slider>
           </Row>
         </Container>
       </section>

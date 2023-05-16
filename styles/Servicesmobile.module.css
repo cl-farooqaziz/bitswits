@@ -18,6 +18,7 @@
   color: black;
   margin-bottom: 1rem;
 }
+
 .serveimg p {
   font-size: 14px;
   min-height: 180px;
@@ -51,3 +52,24 @@
   background-color: var(--w-color);
   box-shadow: 0 0 20px 0 #00000045;
 }
+
+@media screen and (max-width: 1200px) {
+
+  .more {
+    width: fit-content;
+  }
+
+  .serveimg h4 {
+    font-size: 16px;
+    line-height: 25px;
+  }
+
+}
+
+@media screen and (max-width: 991px) {
+
+  .serveimg p {
+    min-height: fit-content;
+  }
+
+ }

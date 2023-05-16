@@ -362,9 +362,32 @@ button {
   border: unset;
 }
 
+
+.desktop{
+  display: block;
+}
+.mobile{
+  display: none;
+}
+
 /* =================Media Queries=================== */
 
+@media screen and (max-width: 991px) {
+
+  .bgimageserve .col-md-4{
+    width: 100%;
+  }
+
+
+}
 @media screen and (max-width: 767px) {
+
+  .desktop{
+    display: none;
+  }
+  .mobile{
+    display: block;
+  }
   .f-20 {
     font-size: 16px;
     line-height: 26px;

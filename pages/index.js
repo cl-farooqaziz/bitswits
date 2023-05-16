@@ -22,6 +22,7 @@ import GetInTouch from '@/components/GetInTouch'
 import Locations from '@/components/Locations'
 import Videotestimonial from '@/components/Videotestimonial'
 import Script from 'next/script'
+import Slider from 'react-slick'
 
 export default function Home() {
 
@@ -75,6 +76,21 @@ export default function Home() {
 
   ]
 
+  const services = 'SERVICES'
+  const app = 'Mobile App Development Services'
+  const revolutionize = 'Revolutionize your business with a mobile app development firm dedicated to providing you with the most innovative apps. Take advantage of their extensive offerings for essential platforms like iOS, and Android for maximum impact.'
+
+
+  let rangSlider = {
+    dots: true,
+    arrows: false,
+    autoplay: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    
+  };
 
   return (
     <>
@@ -97,8 +113,8 @@ export default function Home() {
         <meta name="google-site-verification" content="jg7nSxeneqpzOKNtVKXDQRVGjThDC6_7zGXI8wAXqkY" />
         <link rel="icon" href="images/icons/favicon.webp" />
 
-         {/* ===== jquery ===== */}
-         {/* <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"/> */}
+        {/* ===== jquery ===== */}
+        {/* <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"/> */}
         {/* ===== fancybox ===== */}
         {/* <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" />
         <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" /> */}
@@ -107,15 +123,15 @@ export default function Home() {
       </Head>
 
 
-      <Script  src="/js/jquery.min.js" />
+      <Script src="/js/jquery.min.js" />
       <link rel="stylesheet" href="/css/jquery.fancybox.min.css" />
       <Script src="/js/jquery.fancybox.min.js" />
 
       <Homebanner
-      subtitle = 'Elevate Your Mobile App Experience With'
-      title = 'Top Mobile App  Development Company'
-      text = ' At BitsWits, we are dedicated to revolutionizing the mobile technology industry as the top mobile app development company. We strive to unlock the industry`s full potential by offering innovative and customized solutions for both Android and iOS platforms.'
-      text2 = ' Let us help you bring your vision to life and take your business to the next level with our industry-leading mobile app development solutions.'
+        subtitle='Elevate Your Mobile App Experience With'
+        title='Top Mobile App  Development Company'
+        text=' At BitsWits, we are dedicated to revolutionizing the mobile technology industry as the top mobile app development company. We strive to unlock the industry`s full potential by offering innovative and customized solutions for both Android and iOS platforms.'
+        text2=' Let us help you bring your vision to life and take your business to the next level with our industry-leading mobile app development solutions.'
       />
 
       <Endorsements />
@@ -124,29 +140,62 @@ export default function Home() {
 
       <Partner />
 
-      <div className='bgimageserve'>
+     
+
+      <div className='bgimageserve d-lg-block d-none'>
         <Container className='ourspacing'>
           <Row className='mb-5'>
             <div>
-              <p className="f-20 orange f-montserrat f-700 mb-2 t-center">SERVICES</p>
-              <h2 className="f-50 f-playfair f-700 black t-center">Mobile App Development Services</h2>
-              <p className="f-montserrat f-500 f-14 mb-1 black lheight24 t-center">Revolutionize your business with a mobile app development firm dedicated to providing you with the most innovative apps. Take advantage of their extensive offerings for essential platforms like iOS, and Android for maximum impact.</p>
+              <p className="f-20 orange f-montserrat f-700 mb-2 t-center">{services}</p>
+              <h2 className="f-50 f-playfair f-700 black t-center"> {app} </h2>
+              <p className="f-montserrat f-500 f-14 mb-1 black lheight24 t-center"> {revolutionize} </p>
             </div>
           </Row>
 
 
           <Row className='gy-4'>
-            {fine.map((item, i) =>
-              <Servicesmobile key={i}
-                title={item.title}
-                text={item.text}
-                img1={item.img}
 
-              />
-            )}
+          
+              {fine.map((item, i) =>
+                <Servicesmobile key={i}
+                  title={item.title}
+                  text={item.text}
+                  img1={item.img}
+
+                />
+              )}
+         
           </Row>
         </Container>
       </div>
+
+      <div className='bgimageserve d-lg-none d-block'>
+        <Container className='ourspacing'>
+          <Row className='mb-5'>
+            <div>
+              <p className="f-20 orange f-montserrat f-700 mb-2 t-center">{services}</p>
+              <h2 className="f-50 f-playfair f-700 black t-center"> {app} </h2>
+              <p className="f-montserrat f-500 f-14 mb-1 black lheight24 t-center"> {revolutionize} </p>
+            </div>
+          </Row>
+
+
+          <Row className='gy-4'>
+
+            <Slider {...rangSlider}>
+              {fine.map((item, i) =>
+                <Servicesmobile key={i}
+                  title={item.title}
+                  text={item.text}
+                  img1={item.img}
+
+                />
+              )}
+            </Slider>
+          </Row>
+        </Container>
+      </div>
+
 
       <Publication />
 
