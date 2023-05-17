@@ -25,9 +25,19 @@ import media7 from '../public/images/media/7.webp'
 const Header = () => {
 
     const [isActive, setIsActive] = useState(false);
+    const [megamenu1, setMegaMenu1] = useState(false);
+    const [megamenu2, setMegaMenu2] = useState(false);
 
     const handleMenu = () => {
         setIsActive((prev) => !prev);
+    }
+
+    const handleMegaMenu = () => {
+        setMegaMenu1((prev) => !prev);
+    }
+
+    const handleMegaMenu2 = () => {
+        setMegaMenu2((prev) => !prev);
     }
 
     const [travelappshow, settravelapp] = useState(true);
@@ -127,7 +137,7 @@ const Header = () => {
                                         <span>Home</span>
                                     </Link>
                                 </li>
-                                <li className={`${styles.mainLi} ${styles.megaLi}`}>
+                                <li className={`${styles.mainLi} ${styles.megaLi}`} onClick={handleMegaMenu}>
                                     <Link href="#" className={styles.mainA}>
                                         <span>Services</span>
                                         <Image alt="bitswits" className={`${styles.arrImg} img-fluid`}
@@ -135,7 +145,7 @@ const Header = () => {
                                             loading="lazy"
                                         />
                                     </Link>
-                                    <div className={styles.megaMenu1}>
+                                    <div className={megamenu1 ? `${styles.megaMenu1} ${styles.opnMenu}` : `${styles.megaMenu1}`}>
                                         <div className={styles.backArrow}>
                                             <Image
                                                 alt="bitswits"
@@ -356,7 +366,7 @@ const Header = () => {
                                         </Container>
                                     </div>
                                 </li>
-                                <li className={`${styles.mainLi} ${styles.megaLi}`}>
+                                <li className={`${styles.mainLi} ${styles.megaLi}`} onClick={handleMegaMenu2}>
                                     <Link href="#" className={styles.mainA}>
                                         <span>Our Work</span>
                                         <Image alt="bitswits" className={`${styles.arrImg} img-fluid`}
@@ -364,7 +374,7 @@ const Header = () => {
                                             loading="lazy"
                                         />
                                     </Link>
-                                    <div className={styles.megaMenu2}>
+                                    <div className={megamenu2 ? `${styles.megaMenu2} ${styles.opnMenu2}` : `${styles.megaMenu2}`}>
                                         <div className={styles.backArrow}>
                                             <Image
                                                 alt="bitswits"
@@ -569,9 +579,9 @@ const Header = () => {
                             </Link>
                         </div>
                         <div className={styles.navTogle} onClick={handleMenu}>
-                            <span className={styles.line}></span>
-                            <span className={styles.line}></span>
-                            <span className={styles.line}></span>
+                            <span className={isActive ? `${styles.line} ${styles.line1}` : `${styles.line}`}></span>
+                            <span className={isActive ? `${styles.line} ${styles.line2}` : `${styles.line}`}></span>
+                            <span className={isActive ? `${styles.line} ${styles.line3}` : `${styles.line}`}></span>
                         </div>
                     </nav >
                 </Container >

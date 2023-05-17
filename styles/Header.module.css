@@ -442,21 +442,29 @@
   .megaMenu2 {
     position: absolute;
     top: 0;
+    left: -100%;
     width: 100%;
     height: auto;
+    display: block;
     opacity: 1;
-    display: none;
     margin-top: 2px;
     background: #1a1a1a;
     box-shadow: 0 15px 15px 0 rgb(0 0 0 / 17%);
     padding-bottom: 30px;
+    z-index: 1;
+    transition: all 0.7s ease-in-out;
   }
 
   .megaLi:hover .megaMenu1,
   .megaLi:hover .megaMenu2 {
-    display: none;
+    display: unset;
     animation: unset;
     transform-origin: unset;
+  }
+
+  .megaMenu1.opnMenu,
+  .megaMenu2.opnMenu2 {
+    left: 0%;
   }
 
   .megaMenu1 .innerCol {
@@ -537,10 +545,90 @@
     z-index: 1;
     filter: invert(1);
   }
+
+  .navTogle .line.line1 {
+    transform: translateY(10px) rotate(45deg);
+    position: absolute;
+    top: 21px;
+    right: 36px;
+  }
+
+  .navTogle .line.line2 {
+    display: none;
+  }
+
+  .navTogle .line.line3 {
+    transform: translateY(-9px) rotate(-45deg);
+    margin-top: 20px;
+  }
 }
 
 @media screen and (max-width: 767px) {
   .navBtns {
     display: none;
+  }
+
+  .navMenu {
+    width: 85%;
+  }
+
+  .mainA {
+    font-size: 16px;
+  }
+
+  .arrImg {
+    width: 30px;
+  }
+
+  .megaMenu1 .innerCol {
+    padding: 20px 0px 0px;
+  }
+
+  .megaHead {
+    margin-top: 0px;
+    font-size: 20px;
+  }
+
+  .servicesHeading h5 a {
+    font-size: 16px;
+    margin-bottom: 0px;
+  }
+
+  .megaMenu1 .megaA {
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .megaMenu2 .innerCol {
+    padding: 0px 10px;
+  }
+
+  .workTitle {
+    font-size: 14px;
+  }
+
+  .realDummy {
+    font-size: 13px;
+  }
+
+  .scrn {
+    font-size: 12px;
+  }
+
+  .megaMenu2 .megaList {
+    margin-top: 25px;
+  }
+
+  .leftborder {
+    margin-top: 15px;
+  }
+
+  .backArrow img {
+    width: 25px;
+    height: 25px;
+  }
+
+  .navTogle .line.line1 {
+    right: 12px;
   }
 }
