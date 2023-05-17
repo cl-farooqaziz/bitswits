@@ -136,7 +136,7 @@ const Header = () => {
                                         />
                                     </Link>
                                     <div className={styles.megaMenu1}>
-                                        <div class={styles.backArrow}>
+                                        <div className={styles.backArrow}>
                                             <Image
                                                 alt="bitswits"
                                                 src={backarrow}
@@ -365,7 +365,7 @@ const Header = () => {
                                         />
                                     </Link>
                                     <div className={styles.megaMenu2}>
-                                        <div class={styles.backArrow}>
+                                        <div className={styles.backArrow}>
                                             <Image
                                                 alt="bitswits"
                                                 src={backarrow}
