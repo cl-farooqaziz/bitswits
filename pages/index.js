@@ -26,7 +26,6 @@ import Videotestimonial from '@/components/Videotestimonial'
 
 export default function Home() {
 
-
   const android = <span>Android <br></br>Application Development </span>
   const web = <span>Web <br></br>App Development </span>
   const Flutter = <span>Flutter <br></br>App Development </span>
